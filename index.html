@@ -1,113 +1,113 @@
-<html><!-- Hello nosy! If you ever need some help with a website, just give me an e-mail (crazedpsyc@lavabit.com), or send me a message on github! -->
+<html>
 <head>
-    <title>Crazed Psycho</title>
-    
-<style type="text/css">
-    /* This css is optimized for Mozilla Firefox 4.0+ */
+ <title>Michael X</title>
+ <style type="text/css">
     html {
-        background-color: #EBE7E7;
+        background-color: black;
     }
-    body {
-        width: 90%;
-        height: 90%;
-    }
-    #body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-    }
-    #body td {
-        background-color: rgba(50,50,50,0.5);
-        vertical-align: top;
+    td {
+        background-color: #525252;
+        color: white;
         border-radius: 10px;
-        box-shadow: 0px 0px 5px black;
+        box-shadow: 0px 0px 20px white;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
-        padding: 10px;
+        font-family: "Ubuntu", "Arial";
+        vertical-align: top;
     }
-    #sidebar {width: 20%;}
-    #body td div {
-        margin: 10px;
-        background-color: rgba(50,50,50,0.3);
-        transition-duration: 1s;
+    tfoot {
+        height: 2%;
+        min-height: 10px;
+        max-height: 20px;
+    }
+    #tabs {
+        text-align: left;
+    }
+    #tabs ul {
+        display: inline;
+    }
+    #tabs li {
+        display:inline;
+        list-style: none;
+        background-color: #636363;
+        border: 1px solid #414141;
+        border-bottom: none;
+        width: 100px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        height: 20px;
+        -moz-border-radius-topleft: 7px;
+        -moz-border-radius-topright: 7px;
+        -webkit-border-top-right-radius: 7px;
+        -webkit-border-top-left-radius: 7px;
+        position: relative;
+        z-index: 5;
+        cursor: pointer;
         -moz-transition-duration: 1s;
         -o-transition-duration: 1s;
         -webkit-transition-duration: 1s;
-        border-radius: 10px;
-        padding: 10px;
-        cursor: pointer;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: "Ubuntu", "Arial";
     }
-    #body td div a {
-        color: black;
+    #tabs li:hover {
+        background-color: #525252;
+    }
+    #activetab {
+        width: 100%;
+        height: 80%;
+        background-color: #636363;
+        border: 1px solid #414141;
+        position: relative;
+        top: -1px;
+    }
+    
+    
+    a {
+        color: #30309E;
         text-decoration: none;
     }
-    #body td div:hover {
-        background-color: lightblue;
-        box-shadow: 0px 0px 5px lightblue;
+ </style>
+ 
+ <script type="text/javascript">
+    activetab = 'home';
+    function chtab(tab) {
+        var newtab = document.getElementById(tab + 'tab');
+        var oldtab = document.getElementById(activetab + 'tab');
+        oldtab.style.display = 'none';
+        newtab.style.display = 'block';
+        
+        activetab = tab;
     }
-    
-    #main {
-        width: 60%;
-    }
-    
-    
-    #body td div#orb {
-        position: relative;
-        left: -moz-calc(50% - 48px);
-        width: 64px;
-        height: 64px;
-        background-color: #222;
-        border-radius: 48px;  
-        transition-duration: 1s;
-        -moz-transition-duration: 1s;     
-    }
-    #body td div#orb img {
-        width: 68px;
-        height: 68px;
-        transition-duration: 1s;
-        -moz-transition-duration: 1s; 
-    }
-    #body td:hover div#orb {
-        width: 0px;
-        height: 0px;
-        box-shadow: 0px 0px 32px red;
-        left: -moz-calc(50% - 16px);
-        background-color: rgba(255,0,0,0.2);
-    }
-    #body td:hover div#orb img {
-        width: 0px;
-        height: 0px;
-        opacity: 0.0;
-    }
-    
-</style>
+ </script>
 </head>
-
-<body>
-    <table id="body" cellspacing="20px">
-     <tr><td id="sidebar" align="center">
-        <div id="orb"><img id="me" src="orbofdoom192.png" /></div>
-        <div>The Me Page</div>
-        <div>My Interests</div>
-     </td>
-     <td id="main">
-        <p>Hello, My name is Michael, and I am a learning software engineer</p>
-        <p>I am not officially available for hire, but I will help with any Open Source projects that I can</p>
-        <p>My specialty is Python, but I can also work with JavaScript, HTML5, CSS3, so I often work on small web applications using the Django Framework</p>
-        <br>
-        <p>But anyway, enough with the almost-resume junk!</p>
-        <p>I am currently working on two open source projects:</p>
-        <ul style="text-align:left;">
-         <li><div><a href="http://crazedpsyc.github.com/DOSprompt/">DOSprompt<br><font size="-10">A powerful shell giving Windows SysAdmins a place to work in Linux</font></a></div></li>
-         <li><div><a href="http://www.microsoft.com/">Microsoft&copy; Windows&trade; 8&trade;<br><font size="-10">Just Kidding!</font></a></div></li>
-        </ul>
-        <p>
-        I am just starting a second project, although it won't be available for quite a while<br>
-        It will be an awesome, yet simple Compiz Desktop Shell (like Unity)!</p>
-        <div>And it will be called "Melia"<br><font size="-10">Nymphai Meliai (<h style="font-family: Symbol;">Numfh Meliai</h>) are a species of wood nymph believed to inhabit ash trees</font></div>
-     </td></tr>
+<body height="90%" align="center">
+    <table height="100%" cellspacing="10px" align="center" width="70%">
+        <tr height="90%"><td><h3>I am human.</h3>
+        <!-- tabs -->
+         <div id="tabs"><ul><li onclick="chtab('home')"><img src="home.png" width="14px" height="14px" />&nbsp;Home</li><li onclick="chtab('proj')">Projects</li><noscript><li>You gotta have JavaScript to use this thing!</li></noscript></ul></div>
+        <!-- /tabs -->
+        <div id="activetab">
+            <div id="hometab">
+                <b>Home</b><br>
+                <p>I am human. You are not.</p>
+                <p>I write programs, You run them, because you are made to do so, and they are made for you.</p>
+                <p>You were designed for Linux. Windows can destroy you.</p>
+                <br><hr width="30%" />
+                <p>Contact info:<br><a href="mailto:crazedpsyc@lavabit.com">email</a><br><a href="http://github.com/crazedpsyc">github</a><br><a href="https://launchpad.net/~crazedpsyc">launchpad</a></p>
+            </div>
+            <div id="projtab" style="display:none;">
+                <b>My Projects</b><br>
+                <p><a href="DOSprompt/">DOSprompt</a><br>
+                <font size="-7">A shell written in python meant to look and feel like MS/DOS's cmd.exe</font></p>
+                <br>
+                <p>Melia<br>
+                <font size="-7">Nymphai Meliai (<h style="font-family: Symbol;">Numfh Meliai</h>) are a species of wood nymph believed to inhabit ash trees<br>
+                A beautiful desktop shell working with Compiz (like Unity)</font></p>
+            </div>
+        <div></div>
+        </div>
+        </td></tr>
+        <tfoot style="font-size: 10px;"><td>Copyright &copy; 2011 M. Smith</td></tfoot>    
     </table>
 </body>
 </html>
