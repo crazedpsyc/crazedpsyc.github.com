@@ -14,7 +14,7 @@
    id="svg3873"
    version="1.1"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="New document 7">
+   sodipodi:docname="ubuntu-power-users.svg">
   <defs
      id="defs3875" />
   <sodipodi:namedview
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="343.54286"
-     inkscape:cy="-168.99416"
+     inkscape:cx="340.92567"
+     inkscape:cy="-111.8513"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -78,7 +78,7 @@
            y="269.50504" /></flowRegion><flowPara
          id="flowPara3903"></flowPara></flowRoot>    <g
        id="g3992"
-       transform="matrix(0,-0.72374903,0.72374903,0,-82.234071,615.92401)">
+       transform="matrix(0,-0.57835378,0.57835378,0,-39.144096,517.31745)">
       <g
          id="g4001"
          transform="translate(177.14286,15.714286)">
@@ -149,7 +149,7 @@
        xml:space="preserve"
        id="flowRoot3889"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(402.85714,14.285714)"><flowRegion
+       transform="translate(406.85714,14.285714)"><flowRegion
          id="flowRegion3891"><rect
            id="rect3893"
            width="954.28589"
@@ -157,5 +157,5 @@
            x="-380"
            y="12.362189" /></flowRegion><flowPara
          id="flowPara3895"
-         style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">POW   R USERS</flowPara></flowRoot>  </g>
+         style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">Pow   r Users</flowPara></flowRoot>  </g>
 </svg>
