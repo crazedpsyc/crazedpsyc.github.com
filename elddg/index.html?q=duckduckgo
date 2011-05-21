@@ -1,0 +1,402 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <title>
+   duckduckgo at DuckDuckGo
+  </title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="opensearch.xml" />
+  <link title="DuckDuckGo (SSL)" type="application/opensearchdescription+xml" rel="search" href="opensearch_ssl.xml" />
+  <link rel="image_src" href="nduck.v104.png" />
+  <link rel="apple-touch-icon" href="icon128.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta name="description" content="" />
+  <script type="text/javascript">
+   var fq,r1c,r2c,r3c,ric,rfq,rq,rds,rt,y,y1,ti,tig,ka,kb,kc,kd,ke,kf,kg,kh,ki,kj,kk,kl,km,kn,ko,kp,kq,kr,ks,kt,ku,kv,kw,kx,ky,kz,k1,k2,k3,k4,k5,k6,k7,k8,k9;fq=0;fd=1;it=0;iaq=0;r1hc=0;r1c=1;r2c=1;r3c=0;ric=3;rq='duckduckgo';rfq=0;rt='A';rv='';rad='en.wikipedia.org';rds=15;rs=0;kl='';kp='';ks='';kw='';ka='';kt='';ky='';kk='';kf='';kc='';ke='';kr='';ko='';kj='';kz='';kg='';kh='';kd='';ki='';kn='';kb='';km='';ku='';kq='';kv='';kx='';k1='';k2='';k3='';k4='';k5='';k6='',k7='',k8='',k9='';
+  </script>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+ </head>
+ <body class="yui-skin-sam">
+  <input id="hs" name="hs" type="text" size="1" />
+  <span class="cdn">
+   Ignore this box please.
+  </span>
+  <div id="x1w">
+   <div id="x1">
+   </div>
+  </div>
+  <script type="text/javascript" src="d517.js">
+  </script>
+  <div id="hw">
+   <div id="h">
+    <div id="hwc">
+     <div id="hc">
+      <div class="cl">
+      </div>
+      <a href="?t=i">
+       <div id="hl">
+       </div>
+      </a>
+      <form id="hf" name="x" action="" onsubmit="return nbr()">
+       <div id="sxd">
+       </div>
+       <div id="hfx">
+        <input id="hfb" type="submit" tabindex="2" value="" />
+        <a id="hfd" class="btn" href="javascript:;" onclick="nbc();">
+        </a>
+       </div>
+       <input id="hfc" type="button" tabindex="3" value="" onclick="d.x.q.value='';d.x.q.focus();return false;" />
+       <input type="text" name="q" tabindex="1" autocomplete="off" id="hfi" onfocus="if ('rc' in window) {nua('nro',rc)};fq=1;" onblur="fq=0" onclick="if (this.value=='put search terms here') {this.value='';this.style.color='#000000';}" value="duckduckgo" />
+      </form>
+      <div id="hbw">
+       <ul id="hb">
+        <li>
+         <div id="hbsmw">
+          <a class="hbs" id="hbsc" href="javascript:;">
+           &nbsp;Settings&nbsp;
+          </a>
+          <ul id="hbsm">
+           <li>
+            <a href="settings.html?type=result">
+             <img src="f2/us.png" class="cn" />
+             Results
+            </a>
+           </li>
+           <li>
+            <a href="settings.html?type=privacy">
+             Privacy
+            </a>
+           </li>
+           <li>
+            <a href="settings.html?type=look">
+             Look
+            </a>
+           </li>
+           <li>
+            <a href="settings.html?type=interface">
+             Interface
+            </a>
+           </li>
+           <li>
+            <a href="settings.html">
+             All Settings
+            </a>
+           </li>
+           <li>
+            <a href="params.html">
+             URL Params
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+        <li>
+         <div id="hbsmw">
+          <a class="hbs" id="hbsb" href="javascript:;">
+           Help&nbsp;Out&nbsp;
+          </a>
+          <ul id="hbsm">
+           <script type="text/JavaScript">
+            nib('','','<li>','</li>');
+           </script>
+           <li>
+            <a href="spread.html">
+             Spread DDG!
+            </a>
+           </li>
+           <li>
+            <a href="search_box.html">
+             Site search
+            </a>
+           </li>
+           <li>
+            <a href="http://duck.co/">
+             Forum
+            </a>
+           </li>
+           <li>
+            <a href="http://webchat.freenode.net/?channels=duckduckgo">
+             Chatroom
+            </a>
+           </li>
+           <li>
+            <a href="http://cafepress.com/duckduckgo">
+             T-shirts
+            </a>
+           </li>
+           <li>
+            <a href="feedback.html">
+             Feedback
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+        <li>
+         <div id="hbsmw">
+          <a class="hbs" id="hbsa" href="javascript:;">
+           &nbsp;Goodies&nbsp;
+          </a>
+          <ul id="hbsm">
+           <li>
+            <a href="goodies.html">
+             Shortcuts
+            </a>
+           </li>
+           <li>
+            <a href="tech.html">
+             Technical
+            </a>
+           </li>
+           <li>
+            <a href="tools.html">
+             Add-ons
+            </a>
+           </li>
+           <li>
+            <a href="bang.html">
+             !Bang
+            </a>
+           </li>
+           <li>
+            <a href="faq.html">
+             FAQ
+            </a>
+           </li>
+           <li>
+            <a href="about.html">
+             About
+            </a>
+           </li>
+           <li>
+            <a href="privacy.html">
+             Privacy
+            </a>
+           </li>
+           <li>
+            <a href="http://donttrack.us/">
+             DontTrack.us
+            </a>
+           </li>
+          </ul>
+         </div>
+        </li>
+       </ul>
+      </div>
+      <div class="cl">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="bw">
+   <select id="b" size="2" onclick="nbb(this)" onblur="nbc()">
+   </select>
+  </div>
+  <div id="cw">
+   <div id="c2">
+    <div id="r3w">
+     <div id="r3">
+      <div id="kk" class="cdn">
+       <i>
+        Keyboard shortcuts
+       </i>
+       <br />
+       &darr;, j &nbsp;&mdash; next result
+       <br />
+       &uarr;, k &nbsp;&mdash; prev result
+       <div id="kkb">
+        <a href="javascript:;" onclick="nsh('kkb')">
+         More...
+        </a>
+       </div>
+       <div id="kkbh" class="cdn">
+        <br />
+        /, h &nbsp;&mdash; search box
+        <br />
+        Enter, l, o &nbsp;&mdash; go
+        <br />
+        Ctrl+Enter &nbsp;&mdash; bg
+        <br />
+        ', v &nbsp;&mdash; new tab
+        <br />
+        d &nbsp;&mdash; domain search
+        <br />
+        t &nbsp;&mdash; top
+        <br />
+        !, 1 &nbsp;&mdash; !bang dropdown
+        <br />
+        esc &nbsp;&mdash; out of bangs
+        <br />
+        s &nbsp;&mdash; did you mean
+        <br />
+        r &nbsp;&mdash; related topics
+        <br />
+        m &nbsp;&mdash; main results
+        <div style="padding-top:10px;">
+        </div>
+        <i>
+         Search syntax
+        </i>
+        <br />
+        \ &nbsp;&mdash; go to first result
+        <br />
+        !site &nbsp;&mdash; search
+        <a href="bang.html" class="w1">
+         sites
+        </a>
+        <br />
+        s:d &nbsp;&mdash; sort by date
+        <br />
+        r:n &nbsp;&mdash; turn off region
+        <br />
+        site: &nbsp;&mdash; site search
+        <br />
+        filetype: &nbsp;&mdash; find files
+        <br />
+        intitle: &nbsp;&mdash; within title
+        <br />
+        intitle: &nbsp;&mdash; within body
+        <div style="padding-top:10px;">
+        </div>
+        <a href="goodies.html">
+         More Goodies...
+        </a>
+        <br />
+        <a href="spread.html">
+         Spread DDG!
+        </a>
+        <script type="text/JavaScript">
+         nib('','','<br>','');
+        </script>
+       </div>
+      </div>
+      <div id="r3a" class="cdn">
+      </div>
+      <div id="fbw" class="k_float k_bottom k_right">
+       <a title="Give feedback" target="_new" href="feedback.html" rel="nofollow">
+        <div id="fb">
+        </div>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div id="rprw">
+     <div id="rpr">
+      <div id="rprw2">
+       <div id="rprz">
+        <a href="javascript:;" onclick="nra4()" id="rprze">
+         -
+        </a>
+       </div>
+       <div id="rh2">
+        <h1>
+         <a href="http://en.wikipedia.org/wiki/Duck_Duck_Go">
+          Duck Duck Go
+         </a>
+        </h1>
+       </div>
+       <div id="i">
+        <a href="http://duckduckgo.com/">
+         <img class="cisa" id="i0" />
+        </a>
+       </div>
+       <div id="a" class="cm ca">
+        <a class="cra" href="http://en.wikipedia.org/wiki/Duck_Duck_Go">
+         Duck Duck Go is a search engine based in Valley Forge, Pennsylvania that uses information from crowd-sourced sites (like Wikipedia) with the aim of augmenting traditional results and improving relevance.
+        </a>
+        <div id="o">
+         <a class="cra" href="http://en.wikipedia.org/wiki/Duck_Duck_Go">
+          <img src="i/en.wikipedia.org.ico" class="cia" />
+         </a>
+         <a class="le" href="http://en.wikipedia.org/wiki/Duck_Duck_Go">
+          More at Wikipedia
+         </a>
+         &nbsp;|&nbsp; Official site:
+         <a class="le" href="http://duckduckgo.com/">
+          duckduckgo.com
+         </a>
+        </div>
+       </div>
+       <div id="r2" class="ct2b">
+        <div id="r2-0" class="cr2 cm">
+         <div class="ci">
+         </div>
+         <div class="cl2">
+          <img src="category.png" class="cia" />
+          <a class="li" href="c/Internet_search_engines">
+           Internet search engines
+          </a>
+         </div>
+        </div>
+       </div>
+       <div class="crh">
+        &nbsp;
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="r12w">
+     <noscript>
+      &nbsp; &nbsp; This page requires JavaScript. Get the non-JS version
+      <a href="https://duckduckgo.com/html/?q=duckduckgo">
+       here
+      </a>
+      .
+     </noscript>
+     <div id="r12" style="padding-top:20px;">
+      <div id="r1-0" class="cr1 cm2" style="margin-top: 5px;">
+       <div class="ci">
+        <a onclick="fl=1;" href="?q=duckduckgo+site:duckduckgo.com">
+         <img id="i3" title="duckduckgo.com" alt="" />
+        </a>
+       </div>
+       <div class="cl1">
+        <a class="l le" href="http://duckduckgo.com/">
+         <b>
+          Duck Duck Go
+         </b>
+        </a>
+        &nbsp;
+        <img class="clib" src="official.png" />
+        <div>
+         <a class="clud" href="http://duckduckgo.com/">
+          duckduckgo.com
+         </a>
+         &nbsp;
+         <a href="?q=duckduckgo+site:duckduckgo.com" title="Search domain duckduckgo.com" class="clus cmh">
+          More results
+         </a>
+        </div>
+       </div>
+       <div class="crh">
+        &nbsp;
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="rpbw">
+    </div>
+    <div id="e2">
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   nip();
+  </script>
+  <script type="text/javascript">
+   tig=new YAHOO.util.ImageLoader.group('body',null,0.01);nus('',0,ga+'3f8af7d7.png');nus('',3,ga+'duckduckgo.com.ico',16,16);
+  </script>
+  <script type="text/JavaScript">
+   function nrji() {nrj('/d.js?q=duckduckgo&t=A&l=us-en&p=1&s=0');};if (ir) window.addEventListener('load', nrji, false);else nrji();
+  </script>
+  <script type="text/JavaScript">
+   if (ip) setTimeout('nuo(1)',500);
+  </script>
+ </body>
+</html>
