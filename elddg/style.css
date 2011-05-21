@@ -14,7 +14,7 @@ html {
   background: #414141;
   color: #EEE;
   overflow-y: scroll; 
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   /* commented out until a decision is made */
   /* Firefox 3.6+ */
@@ -22,7 +22,7 @@ html {
   /* Safari 4-5, Chrome 1-9 */ 
   /*background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)); */
   /* Safari 5.1+, Chrome 10+ */ 
-  /*background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);*/ 
+  background: -webkit-radial-gradient(circle, #747474, #525252);
   /* Opera cannot do radial gradients yet */
 }
 
