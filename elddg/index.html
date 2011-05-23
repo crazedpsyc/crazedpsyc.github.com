@@ -11,12 +11,12 @@
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
   <meta name="HandheldFriendly" content="true" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <link rel="image_src" href="nduck.v104.png" />
+  <link rel="image_src" href="nduck.v104.0.png" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/yegg" />
   <link rel="apple-touch-icon" href="icon128.png" />
   <link rel="stylesheet" href="style.css" type="text/css" />
   <style type="text/css">
-   html{overflow:hidden}#t{padding-top:0px}#dh{background:url(nduck.v104.png) no-repeat center top}@media only screen and (max-device-width: 701px) {#dh {background:url(nduck.v105.mobile.png) no-repeat center top}}@media only screen and (-webkit-min-device-pixel-ratio:1.5){#dh {background:url(nduck.v105.mobile.png) no-repeat center top}}
+   html{overflow:hidden}#t{padding-top:0px}#dh{background:url(nduck.v104.0.png) no-repeat center top}@media only screen and (max-device-width: 701px) {#dh {background:url(nduck.v105.mobile.png) no-repeat center top}}@media only screen and (-webkit-min-device-pixel-ratio:1.5){#dh {background:url(nduck.v105.mobile.png) no-repeat center top}}
   </style>
  </head>
  <body>
@@ -191,7 +191,21 @@
    <br />
    <br />
    <br />
-   <br />
+   <script type="text/javascript">
+    logonum = 0;
+    lastlogo = 2;
+    function logotoggle() {
+        var dh = document.getElementById('dh');
+        if(logonum < lastlogo) {
+            logonum++;
+        }
+        else {
+            logonum--;
+        }
+        dh.style.background = "url('nduck.v104." + logonum + ".png') no-repeat center top";
+    }
+   </script>
+   <br /><div align="center"><button onclick="logotoggle()" style="background: rgba(0,0,0,0.2);border-radius: 10px;border:none;">Switch Logo</button></div>
    <br />
    <br />
    <br />
