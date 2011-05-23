@@ -37,18 +37,18 @@ body {
 
 a {
   text-decoration: none;
-  color: #88C;
-  text-shadow: 0px 0px 10px black;
+  color: #6f7ba6;
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.2);
 }
 
 a:visited {
-  color: #55A;
+  color: #5e6a95;
   text-shadow: none;
 }
 
 a:hover {
   text-decoration: none !important;
-  color: #7372BF;
+  color: #7f8cb7;
 }
 
 a:focus {
