@@ -26,7 +26,7 @@
      DuckDuckGo
     </div>
    </a>
-   <form name="x" method="GET" action="" id="hfh" onsubmit="return nbr()">
+   <form name="x" method="GET" action="index.html%3Fq=duckduckgo" id="hfh" onsubmit="return nbr()">
     <div id="hfxh">
      <input id="hfbh" tabindex="2" type="submit" value="" />
      <a id="hfdh" class="btn" href="javascript:;" onclick="nbc();">
@@ -205,7 +205,18 @@
         dh.style.background = "url('nduck.v104." + logonum + ".png') no-repeat center top";
     }
    </script>
-   <br /><div align="center"><button onclick="logotoggle()" style="background: rgba(0,0,0,0.2);border-radius: 10px;border:none;">Switch Logo</button></div>
+   <style type="text/css">
+    #logotoggle {
+        background: rgba(0,0,0,0.2);
+        border-radius: 10px;
+        border: none;
+    }
+    #logotoggle:hover {
+        background: rgba(75,75,175,0.2);
+        color: white;
+    }
+   </style>
+   <br /><div align="center"><button id="logotoggle" onclick="logotoggle()">Switch Logo</button></div>
    <br />
    <br />
    <br />
