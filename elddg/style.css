@@ -22,7 +22,7 @@ html {
   /* Safari 4-5, Chrome 1-9 */ 
   /*background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)); */
   /* Safari 5.1+, Chrome 10+ */ 
-  background: -webkit-radial-gradient(circle, #747474, #525252);
+  /*background: -webkit-radial-gradient(circle, #747474, #525252);*/
   /* Opera cannot do radial gradients yet */
 }
 
@@ -37,11 +37,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #6261AF;
+  color: #88C;
+  text-shadow: 0px 0px 10px black;
 }
 
 a:visited {
-  color: #7452FF;
+  color: #55A;
+  text-shadow: none;
 }
 
 a:hover {
