@@ -1,0 +1,649 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- link href="http://duckduckgo.com/c/Pink_Floyd" rel="canonical" / -->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <title>duckduckgo at Duck Duck Go</title>
+  <link type="text/css" href="s249.css" rel="stylesheet" />
+  <link title="Duck Duck Go (HTML)" type="application/opensearchdescription+xml" rel="search" href="opensearch_html.xml">
+  <link href="favicon.ico" rel="shortcut icon" />
+  <meta content="width=device-width; initial-scale=1.0; maximum-scale=3.0; user-scalable=1;" name="viewport" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <style type="text/css">
+    .web-result,.zero-click-result {
+    	border:1px solid transparent;
+    }
+
+    .web-result:hover,.zero-click-result:hover {
+      background: none repeat scroll 0 0 #E1F6C4;
+      border:1px solid #B8E478 !important;
+	    /* cursor: pointer; */
+    }
+
+    #ri {
+      display: block;
+    }
+    #fb {
+      display: block;
+    }
+    .nav-link {
+      float: left;
+      clear: none;
+    }
+    .clus {
+	  color:#555555;
+	  font-size:78.6%;
+	}
+
+	#rprw2 {
+		max-height:150px;
+		overflow:auto;
+	}
+
+    .navbutton {
+      background-color:transparent;
+      border: 0px none;
+      cursor:pointer;
+      font-size:16px;
+      font-weight:bold;
+      text-decoration:underline;
+      color: #1168CC;
+      border-bottom: 1px solid transparent;
+      padding: 0px;
+    }
+    input.navbutton:hover {
+    	border-bottom: 1px solid #1168CC;
+    }
+
+    @media only screen and (max-device-width: 700px) {
+      body {
+        margin-left: 10px;
+        width: 100%;
+      }
+
+      #c,#r12,#r12b,#rpr,#sf,#sxw,#sxw2,#c #sf,#c #sxw,#c #sxw2,#sfh,#t {
+        width: 100%;
+        min-width: 100%;
+        background: #FFF;
+        padding-right:0;
+        margin-right:0;
+      }
+
+      #sd,#ri {
+        display: none;
+      }
+
+      #sxw {
+        border: 0;
+      }
+
+      #sx,#c #sx {
+        width: 70%;
+      }
+
+      #sfh,#t #sxw {
+        width: 300px;
+        min-width: 300px;
+        margin: auto;
+      }
+
+      #t #sx {
+        width: 245px;
+      }
+
+      #fb {
+        display: none;
+      }
+    }
+
+
+  </style>
+</head>
+
+<body class="yui-skin-sam">
+  <a name="top" id="top"></a>
+
+  <form action="html/" method="POST">
+    <input type="text" name="hs" id="hs" />
+  </form>
+
+  <div id="c">
+    <div id="sf">
+      <form action="html/" name="x" id="x" method="POST">
+        <a title="Duck Duck Go" href="html/">
+	        <img width="60" height="60" src="sduck.v105.png" alt="DuckDuckGo" id="sd" name="sd" />
+	      </a>
+
+        <div id="sxw2">
+          <div id="sxw">
+            <input type="text" value="duckduckgo" id="sx" name="q" />
+	          <input type="submit" value="" id="sb" />
+          </div>
+        </div>
+
+        <div id="sxd"></div>
+      </form>
+
+      <div style="padding-top: 30px;">
+        &nbsp;
+      </div>
+    </div>
+
+
+
+<!-- If zero click results are present -->
+    <div id="rprw" style="display: block; visibility: visible;">
+      <div id="rpr">
+        <div id="rprw2">
+          <div id="rprz">
+            Zero-click Info (<a href="faq.html#zero">?</a>)
+          </div>
+
+          <div id="rh2">
+            <h1><a rel="nofollow" href="https://secure.wikimedia.org/wikipedia/en/wiki/Duck_Duck_Go">Duck Duck Go</a></h1>&nbsp;
+
+            <div class="crx cm">
+              <!-- span class="ch3"><a href="c/Pink_Floyd" class=
+              "l">[Category]</a></span -->
+            </div>
+          </div>
+
+
+	
+          <div id="i">
+            <a rel="nofollow" href="https://secure.wikimedia.org/wikipedia/en/wiki/Duck_Duck_Go">
+	            <img alt=""
+	                 title=""
+                   id="i0" class="cisa" src="http://i.duck.co/i/3f8af7d7.png"
+		               style="visibility: visible;" name="i0" />
+            </a>
+          </div>
+    
+
+          <div class="cm ca zero-click-result" id="a">
+            Duck Duck Go is a search engine based in Valley Forge, Pennsylvania that uses information from crowd-sourced sites (like Wikipedia) with the aim of augmenting traditional results and improving relevance.
+            
+	          <a rel="nofollow" href="https://secure.wikimedia.org/wikipedia/en/wiki/Duck_Duck_Go" class="le">More at <q>Wikipedia</q></a>
+	        
+          </div>
+
+
+          <div class="ct2b" id="r2">
+            <div class="crh">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<!-- Web results are present -->
+
+    <div id="r12w">
+      <div style="padding-top: 20px;" id="r12">
+      
+
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="https://duckduckgo.com/">
+	            	<img width="16" height="16" alt=""
+		            	src="i/duckduckgo.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="https://duckduckgo.com/"><b>DuckDuckGo</b></a>
+          
+
+	    
+            <div class="cra">We do not track you! See our privacy policy.</div>
+	    
+
+            <div class="clud">
+              duckduckgo.com
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="https://twitter.com/duckduckgo">
+	            	<img width="16" height="16" alt=""
+		            	src="i/twitter.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="https://twitter.com/duckduckgo">Twitter - duckduckgo</a>
+          
+
+	    
+
+            <div class="clud">
+              twitter.com/duckduckgo
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="http://www.webpronews.com/matt-cutts-blekko-duckduckgo-2011-05">
+	            	<img width="16" height="16" alt=""
+		            	src="i/www.webpronews.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="http://www.webpronews.com/matt-cutts-blekko-duckduckgo-2011-05">Google’s Matt Cutts Encourages Users To Check Out Blekko ...</a>
+          
+
+	    
+            <div class="cra">Google’s Matt Cutts used a new webmaster video to share his thoughts about alternative search engines Blekko and <b>DuckDuckGo</b>. Long story short, he thinks ...</div>
+	    
+
+            <div class="clud">
+              webpronews.com/matt-cutts-blekko-duckduckgo-2011-05
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="http://blog.hathix.com/2011/04/duckduckgo-the-best-thing-since-google/">
+	            	<img width="16" height="16" alt=""
+		            	src="i/blog.hathix.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="http://blog.hathix.com/2011/04/duckduckgo-the-best-thing-since-google/"><b>DuckDuckGo</b> - a neat new search engine | hathix</a>
+          
+
+	    
+            <div class="cra"><b>DuckDuckGo</b> is a fun alternative to Google that lets you search any site with just a few letters and offers quick info on things you search.</div>
+	    
+
+            <div class="clud">
+              blog.hathix.com/2011/04/duckduckgo-the-best-thing-since...
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="https://secure.wikimedia.org/wikipedia/en/wiki/DuckDuckGo">
+	            	<img width="16" height="16" alt=""
+		            	src="i/en.wikipedia.org.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="https://secure.wikimedia.org/wikipedia/en/wiki/DuckDuckGo"><b>DuckDuckGo</b> - Wikipedia, the free encyclopedia</a>
+          
+
+	    
+            <div class="cra"><b>DuckDuckGo</b> is a search engine based in Valley Forge, Pennsylvania that uses information from crowd-sourced sites &#x28;like Wikipedia&#x29; with the aim of augmenting ...</div>
+	    
+
+            <div class="clud">
+              en.wikipedia.org/wiki/DuckDuckGo
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="http://web.appstorm.net/general/opinion/duckduckgo-the-next-major-search-engine/">
+	            	<img width="16" height="16" alt=""
+		            	src="i/web.appstorm.net.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="http://web.appstorm.net/general/opinion/duckduckgo-the-next-major-search-engine/"><b>DuckDuckGo</b> – The Next Major Search Engine?</a>
+          
+
+	    
+            <div class="cra">Back in the day, we all used AltaVista or Yahoo! to find everything we needed on the Internet. It was slow and often didn&#x27;t find what we were looking for, but</div>
+	    
+
+            <div class="clud">
+              web.appstorm.net/general/opinion/duckduckgo-the-next-maj...
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="https://searchengineland.com/duckduckgo-challenges-google-privacy-with-donttrack-us-60099">
+	            	<img width="16" height="16" alt=""
+		            	src="i/searchengineland.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="https://searchengineland.com/duckduckgo-challenges-google-privacy-with-donttrack-us-60099"><b>DuckDuckGo</b> Challenges Google On Privacy With DontTrack.us</a>
+          
+
+	    
+            <div class="cra"><b>DuckDuckGo</b>, a small search engine that’s largely flown under the public radar, has started the new year by taking a public shot at Google on the issue of search privacy</div>
+	    
+
+            <div class="clud">
+              searchengineland.com/duckduckgo-challenges-google-privacy-wi...
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="http://lifehacker.com/5798441/duckduckgo-for-android-finds-what-youre-looking-for-faster">
+	            	<img width="16" height="16" alt=""
+		            	src="i/lifehacker.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="http://lifehacker.com/5798441/duckduckgo-for-android-finds-what-youre-looking-for-faster"><b>DuckDuckGo</b> for Android is a Web Search App that Focuses on ...</a>
+          
+
+	    
+            <div class="cra">Matthew Rogers — Android: <b>DuckDuckGo</b>&#x27;s free mobile app makes the fast-answering, no-frills search engine easily accessible on the go. There&#x27;s a lot to like about ...</div>
+	    
+
+            <div class="clud">
+              lifehacker.com/5798441/duckduckgo-for-android-finds-wh...
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="http://www.wired.com/epicenter/2011/01/duckduckgo-google-privacy/">
+	            	<img width="16" height="16" alt=""
+		            	src="i/www.wired.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="http://www.wired.com/epicenter/2011/01/duckduckgo-google-privacy/"><b>DuckDuckGo</b> Challenges Google on Privacy &#x28;With a Billboard&#x29;</a>
+          
+
+	    
+            <div class="cra"><b>DuckDuckGo</b>, a one-man-band search engine based out of Valley Forge, Pennsylvania, is aiming at Google’s privacy practices with an unusual tactic: a ...</div>
+	    
+
+            <div class="clud">
+              wired.com/epicenter/2011/01/duckduckgo-google-privacy/
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="http://blog.searchenginewatch.com/110509-155157">
+	            	<img width="16" height="16" alt=""
+		            	src="i/blog.searchenginewatch.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="http://blog.searchenginewatch.com/110509-155157">Google&#x27;s New Search Layout Test: Borrowing From Blekko ...</a>
+          
+
+	    
+            <div class="cra">The new looks don&#x27;t seem all that new, especially if you&#x27;ve ever visited Blekko or <b>DuckDuckGo</b>, which both sport similar, though not identical, search layouts.</div>
+	    
+
+            <div class="clud">
+              blog.searchenginewatch.com/110509-155157
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="http://searchenginewatch.com/article/2049710/WolframAlpha-DuckDuckGo-Conspire-to-Eat-Googles-Lunch">
+	            	<img width="16" height="16" alt=""
+		            	src="i/searchenginewatch.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="http://searchenginewatch.com/article/2049710/WolframAlpha-DuckDuckGo-Conspire-to-Eat-Googles-Lunch">Wolfram|Alpha &amp; <b>DuckDuckGo</b> Conspire to Eat Google&#x27;s Lunch ...</a>
+          
+
+	    
+            <div class="cra">This afternoon, Wolphram|Alpha announced that <b>DuckDuckGo</b> is an &#x27;official partner&#x27; and the latter will be fully integrating their open API announced in Ja...</div>
+	    
+
+            <div class="clud">
+              searchenginewatch.com/article/2049710/WolframAlpha-DuckDuckGo...
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="https://duck.co/">
+	            	<img width="16" height="16" alt=""
+		            	src="i/duck.co.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="https://duck.co/">duck.co - The <b>DuckDuckGo</b> Community - All things <b>DuckDuckGo</b></a>
+          
+
+	    
+            <div class="cra">All things <b>DuckDuckGo</b> ... © 2011 ZOHO Corp. All Rights Reserved. Privacy; Terms &amp; Conditions &#x28;Works best in IE 7.0+, Firefox 2.0+, Chrome, Safari&#x29;</div>
+	    
+
+            <div class="clud">
+              duck.co
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="cr1d cmd2 web-result">
+          <div class="cid" style="display: block;">
+          	
+            	<a rel="nofollow" href="http://arnoldit.com/wordpress/2011/04/25/ducks-and-alphas-wolfram-alpha-and-duckduckgo-unite/">
+	            	<img width="16" height="16" alt=""
+		            	src="i/arnoldit.com.ico" style="visibility: visible;" name="i15" />
+	          	</a>
+	        
+          </div>
+
+          <div class="cl1 cld"> <!-- This is the visible part -->
+          
+           	<a rel="nofollow" class="l le" href="http://arnoldit.com/wordpress/2011/04/25/ducks-and-alphas-wolfram-alpha-and-duckduckgo-unite/">Ducks and Alphas: Wolfram Alpha and <b>DuckDuckGo</b> Unite</a>
+          
+
+	    
+            <div class="cra">“Wolfram|Alpha and <b>DuckDuckGo</b> Partner on API binding and Search Integration,” touts Wolfram Alpha’s own blog. Both organizations have brought something ...</div>
+	    
+
+            <div class="clud">
+              arnoldit.com/wordpress/2011/04/25/ducks-and-alphas-w...
+              
+            </div>
+          </div>
+        </div>
+
+
+
+        
+        
+                <div class="cr1b cmd cld nav-link">
+        <form action="html/" method="POST">
+          <!-- <a rel="next" href="html/?q=duckduckgo&amp;t=A&amp;l=us-en&amp;p=1&amp;s=50&amp;o=json&amp;dc=14&amp;api=d.js">Next Page &gt;</a> //-->
+          <input type="submit" class='navbutton' value="Next Page &gt;">
+          <input type="hidden" name="q" value="duckduckgo">
+          <input type="hidden" name="p" value="1">
+          <input type="hidden" name="s" value="50">
+          <input type="hidden" name="o" value="json">
+          <input type="hidden" name="dc" value="14">
+          <input type="hidden" name="api" value="d.js">
+        </form>
+                </div>
+        
+        <div style="clear:both;"></div>
+
+
+        <div id="rrd-1" style="display: none;"></div>
+      </div>
+
+    </div>
+
+
+
+    <div class="k_float k_bottom k_right" id="fb">
+      <a rel="nofollow" href="feedback.html"
+         target="_new"><img src="feedback.v103.png" />
+      </a>
+    </div>
+
+    <div id="f">
+      <div style="display: block;" id="f1">
+        This is the HTML (no javascript) version. Get the javascript enabled version
+	  <a href="http://duckduckgo.com/?q=duckduckgo">here</a>
+      </div>
+    </div>
+
+    <div id="e2"></div>
+
+    <div id="ri">
+      <div class="ch7">
+        <a href="spread.html" rel="nofollow" class="les2">Spread DDG!</a>
+      </div>
+
+      <div style="margin-top: 12px;" class="ch4">
+        Try search on:
+      </div>
+
+      <div class="ch8">
+        <a href=
+        "http://www.bing.com/images/search?q=duckduckgo&amp;go=&amp;form=QBIL&amp;qs=n&amp;sk=&amp;sc=8-3"
+        title="Bing Images" rel="nofollow"><img src=
+        "b_images2.png" class="cli" /></a> <a title="Bing Images"
+        href=
+        "http://www.bing.com/images/search?q=duckduckgo&amp;go=&amp;form=QBIL&amp;qs=n&amp;sk=&amp;sc=8-3"
+        rel="nofollow" class="les2">!bimages</a>
+      </div>
+
+      <div class="ch8">
+        <a href="http://maps.google.com/maps?q=duckduckgo" rel=
+        "nofollow" title="Google Maps"><img src="b_maps2.png"
+        class="cli" /></a> <a title="Google Maps" href=
+        "http://maps.google.com/maps?q=duckduckgo" rel="nofollow"
+        class="les2">!gmaps</a>
+      </div>
+
+      <div class="ch8">
+        <a title="Yahoo! News" href=
+        "http://news.search.yahoo.com/search?p=duckduckgo&amp;fr2=sb-top&amp;fr=news-us-ss&amp;type=all&amp;age=all&amp;sao=1"
+        rel="nofollow"><img src="b_news2.png" class="cli" /></a>
+        <a title="Yahoo! News" href=
+        "http://news.search.yahoo.com/search?p=duckduckgo&amp;fr2=sb-top&amp;fr=news-us-ss&amp;type=all&amp;age=all&amp;sao=1"
+        rel="nofollow" class="les2">!ynews</a>
+      </div>
+
+      <div class="ch8">
+        <a href=
+        "http://www.youtube.com/results?search_query=duckduckgo"
+        rel="nofollow"><img src="b_youtube2.png" class=
+        "cli" /></a> <a href=
+        "http://www.youtube.com/results?search_query=duckduckgo"
+        rel="nofollow" class="les2">!youtube</a>
+      </div>
+
+      <div class="ch8">
+        <a href="http://search.twitter.com/search?q=duckduckgo"
+	   rel="nofollow"><img src="b_twitter2.png" class="cli" /></a>
+	<a href="http://search.twitter.com/search?q=duckduckgo"
+	   rel="nofollow" class="les2">!twitter</a>
+      </div>
+
+      <div class="ch8">
+        <a href="http://www.facebook.com/search/?q=duckduckgo"
+        rel="nofollow"><img src="b_facebook2.png" class=
+        "cli" /></a> <a href=
+        "http://www.facebook.com/search/?q=duckduckgo" rel=
+        "nofollow" class="les2">!facebook</a>
+      </div>
+
+      <div class="ch8">
+        <a href=
+        "http://amazon.com/s/?tag=dudugo-20&amp;url=search-alias%3Daps&amp;field-keywords=duckduckgo"
+        rel="nofollow"><img src="b_amazon2.png" class="cli" /></a>
+        <a href=
+        "http://amazon.com/s/?tag=dudugo-20&amp;url=search-alias%3Daps&amp;field-keywords=duckduckgo"
+        rel="nofollow" class="les2">!amazon</a>
+      </div>
+
+      <div class="ch7">
+        <a href="bang.html" rel="nofollow" class="les2">More w/ !bang...</a>
+      </div>
+
+      <div class="ch7">
+        <a href="goodies.html" rel="nofollow" class="les2">More goodies...</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
