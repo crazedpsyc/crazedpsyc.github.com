@@ -16,9 +16,11 @@ html {
   overflow-y: scroll; 
   background-position: top center;
   background-repeat: no-repeat;
-  background-image: -moz-radial-gradient(center top , circle closest-corner, #525252, #414141);
-  background-image: -webkit-radial-gradient(center top , circle closest-corner, #525252, #414141);
-  background-image: radial-gradient(center top , circle closest-corner, #525252, #414141);
+  
+  /* the radical gradient */  
+  background-image: -moz-radial-gradient(center top , circle closest-corner, #525252, #101010);
+  background-image: -webkit-radial-gradient(center top , circle closest-corner, #525252, #101010);
+  background-image: radial-gradient(center top , circle closest-corner, #525252, #101010);
 }
 
 /* font stack */
