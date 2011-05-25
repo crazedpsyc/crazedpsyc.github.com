@@ -17,7 +17,15 @@ html {
   background-position: top center;
   background-repeat: no-repeat;
   
-  /* the radical gradient */  
+  background-image: url('darkbg.svg');
+  background-size: 100%;  
+  /* the radical gradient */ 
+  
+  /* fallback svg for slightly older browsers */
+  background-image: url('darkbg.svg');
+  background-size: 100%; 
+  
+  /* css3 radical gradient */
   background-image: -moz-radial-gradient(center top , circle closest-corner, #525252, #101010);
   background-image: -webkit-radial-gradient(center top , circle closest-corner, #525252, #101010);
   background-image: radial-gradient(center top , circle closest-corner, #525252, #101010);
