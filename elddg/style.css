@@ -1411,11 +1411,22 @@ border-bottom-right-radius: 3px;
     position: absolute;
     height: 20px;
     width: 20px;
-    background-color: #636363;
+    background-color: #444;
     border-radius: 17px; /* circle */
     margin-top: 5px; 
     text-align: center;
     vertical-align: top;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+#hfcb h {
+    position: relative;
+    top: -2px;
+}
+#hfcb:hover {
+    background-color: #313131;
 }
 /* search button */
 #hfb {
