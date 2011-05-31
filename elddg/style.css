@@ -19,16 +19,14 @@ html {
   
   background-image: url('darkbg.svg');
   background-size: 100%;  
-  /* the radical gradient */ 
   
+  /* css3 radical gradient */
+  background-image: -moz-radial-gradient(center top , circle closest-corner, #525252, #101010);
+  background-image: -webkit-radial-gradient(center top , circle closest-corner, #525252, #101010);
+  background-image: radial-gradient(center top , circle closest-corner, #525252, #101010);
   /* fallback svg for slightly older browsers */
   background-image: url('darkbg.svg');
   background-size: 100%; 
-  
-  /* css3 radical gradient */
-  /*background-image: -moz-radial-gradient(center top , circle closest-corner, #525252, #101010);
-  background-image: -webkit-radial-gradient(center top , circle closest-corner, #525252, #101010);
-  background-image: radial-gradient(center top , circle closest-corner, #525252, #101010);*/
 }
 
 /* font stack */
@@ -140,7 +138,7 @@ sub {
   font-size:83.3%;  
   line-height: 1.4;
   word-wrap: break-word;
-  border: 1px solid #30309E;
+  border: none;
 }
 
 /* snippet for disambiguation pages - hardly ever comes up */
@@ -508,7 +506,7 @@ sub {
 /* 0-click box */
 #rpr
 {
-  border: 2px solid #FFABAD;
+  border: 2px solid #6f96a6;
   padding-left: 5px;
   padding-right: 3px;
   width: 85%;
@@ -1009,7 +1007,7 @@ border-bottom-right-radius: 3px;
 /* url line */
 .clud, .clud a
 {
-  color: #662200 !important;
+  color: #4d7484 !important;
 /*  color: #111155; */
 /*  color: #551111; */
 }
@@ -1029,12 +1027,12 @@ border-bottom-right-radius: 3px;
 
 /* background highlighting for results */
 .cm,.cma3,.cma {
-  border: 1px solid #fff;
+  border: none;
 }
 
 .cmf {
-  background: #e4f6b9; 
-  border: 1px solid #b8e478 !important;
+  /*background: #e4f6b9; */
+  border: none !important;
 /*  background: #eee; */
   cursor: pointer;
 }
@@ -1068,14 +1066,14 @@ border-bottom-right-radius: 3px;
   clear: left;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid #FFF;
+  border: none;
 }
 .cr1d
 {
   padding-left: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid #FFF;
+  border: none;
 }
 .cr1 {
   padding-left: 5px;
@@ -1093,7 +1091,7 @@ border-bottom-right-radius: 3px;
 {
   padding-bottom: 3px;
   padding-top: 3px;
-  border: 1px solid #fff;
+  border: none;
 }
 .cr4b,.cr2c {
   padding-bottom: 4px;
@@ -1118,7 +1116,7 @@ border-bottom-right-radius: 3px;
 .cra, .cra a
 {
   line-height: 1.4;
-  color: #222 !important;
+  color: #DDD !important;
   text-decoration: none !important;
   cursor: default !important;
 }
@@ -1186,10 +1184,10 @@ border-bottom-right-radius: 3px;
 }
 
 #h {
-    background: #e4f6b9 url('headerbg.v101.lgreen.png') 0 0 repeat-x;
+    background: url('headerbg.v101.lgreen.png') 0 0 repeat-x;
     min-width: 560px;
     overflow: hidden;
-    border-bottom: #b8e478 solid 1px;
+    border-bottom: none;
     -moz-box-shadow: 0 0 5px 0px rgba(0,0,0,0.2);
     -webkit-box-shadow: 0 0 5px 0px rgba(0,0,0,0.2);
 }
@@ -1261,7 +1259,7 @@ border-bottom-right-radius: 3px;
 	width: 17px;
 	height: 32px;
 	
-	background: url("/sbutton.v101.lblue.png") repeat-x scroll right top transparent
+	background: url("sbutton.v101.green.png") repeat-x scroll right top transparent
 }
 #hfd:active {
 	background-position: right bottom;
@@ -1275,7 +1273,7 @@ border-bottom-right-radius: 3px;
 	width: 17px;
 	height: 32px;
 	
-	background: url("/sbutton.v101.green.png") repeat-x scroll right top transparent
+	background: url("sbutton.v101.green.png") repeat-x scroll right top transparent
 }
 #hfdh:active {
 	background-position: right bottom;
@@ -1306,6 +1304,8 @@ border-bottom-right-radius: 3px;
 
 	-moz-box-shadow: 0 1px 0px 0 rgba(0,0,0,0.2);
 	-webkit-box-shadow: 0 1px 0px 0 rgba(0,0,0,0.2);
+	border: none;
+	margin-top: 1px; /* must add this to correct displacement */
 }
 /* for homepage */
 #hfih {
@@ -1341,12 +1341,12 @@ border-bottom-right-radius: 3px;
 	
 	width: 49px;
 	
-	border: #3c87b8 solid 1px;
-	border-top: #5ea8db solid 1px;
+	border: #747474 solid 1px;
+	border-top: #747474 solid 1px;
 
 	overflow: hidden;
 	
-	background: #65abdc;
+	background: #747474;
 	
 	-moz-border-radius: 0 3px 3px 0;
 	-webkit-border-top-right-radius: 3px;
@@ -1381,15 +1381,15 @@ border-bottom-right-radius: 3px;
 	width: 25px;
 	
 	border: 0;
-	background: #FFF url('xon.v101.png') no-repeat left center;
+	background: #525252 url('xon.v101.png') no-repeat left center;
 	cursor: pointer;
 
 	height: 34px;
 	margin: 0;
 
 	outline: none;
-	border: #9dca5a solid 1px;
-	border-bottom: #9dca5a solid 1px;
+	border: transparent solid 1px;
+	border-bottom: transparent solid 1px;
 	border-right: 0;
 	border-left: 0;
 
@@ -1397,7 +1397,7 @@ border-bottom-right-radius: 3px;
 	-webkit-box-shadow: 0 1px 0px 0 rgba(0,0,0,0.2);
 }
 #hfc:active {
-	background: #FFF url('xoff.v101.png') no-repeat left center;
+	background: #525252 url('xoff.v101.png') no-repeat left center;
 	background-position: 5px 8px;
 }
 
@@ -1409,7 +1409,7 @@ border-bottom-right-radius: 3px;
 	width: 32px;
 	
 	border: 0;
-	background:url('sbutton.v101.lblue.png') no-repeat;
+	background:url('sbutton.v101.green.png') no-repeat;
 	cursor: pointer;
 }
 #hfb:active {
@@ -1467,7 +1467,7 @@ border-bottom-right-radius: 3px;
     border-bottom: 0;
     position: relative;
     z-index: 300;
-    color:#1168CC;
+    color:#6f96a6;
 }
 
 #hbsmw a.hbs {
@@ -1481,8 +1481,8 @@ border-bottom-right-radius: 3px;
 
 
 #hbsmw:hover a.hbs {
-    background: white url('triangle.png') no-repeat 100% -26px;
-    border-color: #DDD;
+    background: #525252 url('triangle.png') no-repeat 100% -26px;
+    border-color: #555;
 }
 
 /*
@@ -1503,7 +1503,7 @@ border-bottom-right-radius: 3px;
 
 #hbsmw:hover a {
     text-shadow: none !important;
-    color: #1168CC !important;
+    color: #a7e3fa !important;
 }
 
 #hbsm {
@@ -1512,8 +1512,8 @@ border-bottom-right-radius: 3px;
     position: fixed;
     left: -2000px;
     display: block;
-    background: #FFF;
-    border: 1px solid #DDD;
+    background: #525252;
+    border: 1px solid #555;
     margin-left: 2px;
     margin-top: -1px;
     margin-right: 0px;
@@ -1546,7 +1546,7 @@ border-bottom-right-radius: 3px;
     display: block;
     padding: 2px 3px;
     margin: 0;
-    background-color: #FFF;
+    background-color: #525252;
 }
 
 #hbsmw a:hover {
@@ -1554,7 +1554,7 @@ border-bottom-right-radius: 3px;
 }
 
 #hbsm a:hover {
-    background-color: #3FA9F5;
+    background-color: #6f96a6;
     color: #FFF !important;
 }
 
