@@ -27,6 +27,7 @@ html {
   /* fallback svg for slightly older browsers */
   background-image: url('darkbg.svg');
   background-size: 100%; 
+  background-attachment:fixed;
 }
 
 /* font stack */
