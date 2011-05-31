@@ -206,20 +206,37 @@
         }
         dh.style.background = "url('nduck.v104." + logonum + ".png') no-repeat center top";
     }
+    first = true;
+    function acolortoggle() {
+        var elements = document.getElementsByTagName('a');
+        for(var i=0; i<elements.length; i++)
+        {
+           var line = elements[i];
+           if (line.style.color == '#747474') {
+            alert('a');
+            line.style.color = '#a67f6f';
+           }
+           else if (line.style.color == '#a67f6f') {
+            alert('b');
+            line.style.color = '#747474';
+           }
+           else if (first) {line.style.color = '#747474';}
+        }
+    }
    </script>
    <style type="text/css">
-    #logotoggle {
+    .toggler {
         background: rgba(0,0,0,0.2);
         border-radius: 10px;
         border: none;
     }
-    #logotoggle:hover {
+    .toggler:hover {
         background: rgba(75,75,175,0.2);
         color: white;
     }
    </style>
-   <br /><div align="center"><button id="logotoggle" onclick="logotoggle()">Switch Logo</button></div>
-   <br />
+   <br /><div align="center"><button class="toggler" onclick="logotoggle()">Switch Logo</button></div>
+   <br /><!--<div align="center"><button class="toggler" onclick="acolortoggle()">Toggle Visited Link Color</button></div>-->
    <br />
    <br />
    <br />
