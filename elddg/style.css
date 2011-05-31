@@ -41,12 +41,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #4b6570;
+  color: #5c7681;
   text-shadow: 0px 0px 10px rgba(255,255,255,0.2);
 }
 
 a:visited {
-  color: #70564b;
+  color: #747474;
   text-shadow: none;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 
 a:visited:hover {
   text-decoration: none !important;
-  color: #b78f7f;
+  color: #858585;
 }
 
 a:focus {
@@ -1483,7 +1483,7 @@ border-bottom-right-radius: 3px;
     border-bottom: 0;
     position: relative;
     z-index: 300;
-    color:#4b6570;
+    color:#6f96a6;
 }
 
 #hbsmw a.hbs {
@@ -1570,7 +1570,7 @@ border-bottom-right-radius: 3px;
 }
 
 #hbsm a:hover {
-    background-color: #4b6570;
+    background-color: #526374;
     color: #FFF !important;
 }
 
