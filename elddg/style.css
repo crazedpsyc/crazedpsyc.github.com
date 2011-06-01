@@ -1409,11 +1409,11 @@ border-bottom-right-radius: 3px;
 }
 #hfcb {
     position: absolute;
-    height: 20px;
-    width: 20px;
-    background-color: #444;
+    height: 17px;
+    width: 17px;
+    background-color: rgba(0,0,0,0.1);
     border-radius: 17px; /* circle */
-    margin-top: 5px; 
+    margin-top: 8px; 
     text-align: center;
     vertical-align: top;
     -moz-transition-duration: 1s;
@@ -1424,6 +1424,9 @@ border-bottom-right-radius: 3px;
 #hfcb h {
     position: relative;
     top: -2px;
+    left: -1px;
+    font-family: Arial,Helvetica;
+    color: #525252;
 }
 #hfcb:hover {
     background-color: #313131;
