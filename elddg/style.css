@@ -436,7 +436,7 @@ sub {
 
 /* header in 0-click or on top of special pages, rh3 is misppellings line*/
 #rh,#rh2,#rh3 {
-  color: #7452FF;
+  color: #6f96a6;
   font-size: 111.1%;
 }
 
@@ -446,7 +446,7 @@ sub {
 
 /* make sure header color propogates links */
 #rh,#rh2 h1 a,#rh h1 a {
-  color: #7452FF;
+  color: #6f96a6;
 }
 
 /* disambig/category header */
@@ -1265,7 +1265,7 @@ border-bottom-right-radius: 3px;
 	width: 17px;
 	height: 32px;
 	
-	background: url("sbutton.v101.green.png") repeat-x scroll right top transparent
+	background: url("sbutton.v101.lblue.png") repeat-x scroll right top transparent
 }
 #hfd:active {
 	background-position: right bottom;
@@ -1413,7 +1413,7 @@ border-bottom-right-radius: 3px;
     width: 17px;
     background-color: rgba(0,0,0,0.1);
     border-radius: 17px; /* circle */
-    margin-top: 8px; 
+    margin-top: 7px; 
     text-align: center;
     vertical-align: top;
     -moz-transition-duration: 1s;
@@ -1423,8 +1423,8 @@ border-bottom-right-radius: 3px;
 }
 #hfcb h {
     position: relative;
-    top: -2px;
-    left: -1px;
+    top: -12%;
+    right: 5.9%;
     font-family: Arial,Helvetica;
     color: #525252;
 }
@@ -1439,7 +1439,7 @@ border-bottom-right-radius: 3px;
 	width: 32px;
 	
 	border: 0;
-	background:url('sbutton.v101.green.png') no-repeat;
+	background:url('sbutton.v101.lblue.png') no-repeat;
 	cursor: pointer;
 }
 #hfb:active {
@@ -1584,7 +1584,7 @@ border-bottom-right-radius: 3px;
 }
 
 #hbsm a:hover {
-    background-color: #526374;
+    background-color: #636363;
     color: #FFF !important;
 }
 
