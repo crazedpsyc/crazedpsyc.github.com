@@ -522,6 +522,12 @@ sub {
   width: 85%;
   background: rgba(255,255,255,0.2);  
 }
+#rpr a {
+    color: #a7e3fa;
+}
+#rpr a:visited {
+    color: #9AC;
+}
 
 /* make statck overflow code look right */
 #rpr blockquote {
