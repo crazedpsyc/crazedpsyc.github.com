@@ -1,0 +1,232 @@
+@namespace url(http://www.w3.org/1999/xhtml)!important;
+@-moz-document domain("duckduckgo.com") {
+
+body{
+font-size:13px!important;
+font-family:arial!important;
+}
+
+html{
+background:#000!important;
+color:#EEE!important;
+}
+
+a {
+color:lightgreen!important;
+text-shadow:0px 0px 3px #888!important;
+}
+
+a:visited{
+color:purple!important;
+}
+
+a:hover{
+text-decoration:none!important;
+color:#CEC!important;
+}
+a:focus{
+outline:none!important;
+}
+
+#a{
+border: none!important;
+}
+
+#fh2{
+color:#c9cdc7!important;
+}
+
+#i{
+background-color:rgba(255,255,255,0.9)!important;
+box-shadow: 0px 0px 30px rgba(255,255,255,0.4)!important;
+padding:4px!important;
+border-radius:2px!important;
+}
+
+#kk{
+padding-top:30px!important;
+}
+
+#r3a{
+padding-top:10px!important;
+}
+
+
+#rh,#rh2,#rh3{
+color:#CEC!important;
+}
+
+#rh,#rh2 h1 a,#rh h1 a{
+color:#CEC!important;
+}
+
+
+#rpr{
+border:2px solid lightgreen!important;
+background-color:rgba(255,255,255,0.2)!important;
+}
+
+#s{
+border:1px solid #000!important;
+}
+
+.clu{
+color:lightgreen!important;
+}
+
+.clus,.clus a{
+color:#CCC!important;
+}
+
+.clud,.clud a{
+color:green!important;
+}
+
+.cmf{
+background:black!important;
+border:1px solid #000!important;
+}
+
+.cqb a{
+text-decoration:none!important;
+}
+
+.cr1,.cr2,.cr3,.cr2c,.cr1b,.cr3b,.cr4b{
+border: 0!important;
+}
+
+.cr1d{
+border:1px solid #000!important;
+}
+
+.cr2,.cr2b{
+border:none!important;
+}
+
+.cr4b,.cr2c{
+border:1px solid #000!important;
+}
+
+.cra,.cra a{
+color:#DDD!important;
+}
+
+#h{
+background:#000 url('http://crazedpsyc.github.com/ddg/headerbg.v101.lgreen.png') 0 0 repeat-x!important;
+border-bottom:#000 solid 1px!important;
+}
+
+#hfd{
+background:url("http://crazedpsyc.github.com/ddg/sbutton.v101.green.png") repeat-x scroll right top transparent!important;
+}
+
+#hfdh{
+background:url("http://crazedpsyc.github.com/ddg/sbutton.v101.green.png") repeat-x scroll right top transparent!important;
+}
+
+#hfi{
+background:#444!important;
+color:#EEE!important;
+outline:none!important;
+border:green solid 1px!important;
+}
+
+#hfih{
+background:#444!important;
+color:#EEE!important;
+
+outline:none!important;
+border:#666 solid 1px!important;
+
+-moz-box-shadow:0px 0px 15px #888!important;
+-webkit-box-shadow:0px 0px 15px #888!important;
+}
+
+#hfx{
+border:#888 solid 1px!important;
+border-top:#AAA solid 1px!important;
+
+-moz-box-shadow:0px 0px 15px #888!important;
+-webkit-box-shadow:0px 0px 15px #888!important;
+}
+
+#hfxh{
+border:#888 solid 1px!important;
+background:lightgreen!important;
+}
+
+#hfc{
+background:#444 url('http://crazedpsyc.github.com/ddg/xon.v101.png') no-repeat left center!important;
+outline:none!important;
+border:green solid 1px!important;
+border-bottom:green solid 1px!important;
+}
+
+
+#hfc:active{
+background:#FFF url('http://crazedpsyc.github.com/ddg/xoff.v101.png') no-repeat left center!important;
+}
+
+#hfb{
+background:url('http://crazedpsyc.github.com/ddg/sbutton.v101.green.png') no-repeat!important;
+}
+
+#hfbh{
+background:url('http://crazedpsyc.github.com/ddg/sbutton.v101.green.png') no-repeat!important;
+-moz-box-shadow: 0px 0px 18px #888!important;
+-webkit-box-shadow: 0px 0px 18px #888!important;
+}
+
+#hb a{
+color:white!important;
+}
+
+#hbsmw a.hbs{
+background:url('http://crazedpsyc.github.com/ddg/triangle.png') no-repeat 100% -26px!important;
+}
+#hbsmw:hover a.hbs{
+background:black url('http://crazedpsyc.github.com/ddg/triangle.png') no-repeat 100% -26px!important;
+border-color:#444!important;
+}
+
+
+#hbsmw:hover a{
+color:#CEC!important;
+}
+
+#hbsm{
+background:#000!important;
+border:1px solid #444!important;
+}
+
+#hbsm a{
+background-color:#000!important;
+}
+
+#hbsm a:hover{
+background-color:lightgreen!important;
+color:#000!important;
+}
+
+
+#fh{
+color:white!important;
+}
+#hfxh{
+box-shadow:0px 0px 15px #888!important;
+}
+
+.carbonad-text{
+margin-top:9px!important;
+font-size:11px!important;
+}
+
+.carbonad-tag{
+color:#777!important;
+}
+
+#dh {
+background-image: url('http://crazedpsyc.github.com/ddg/nduck.v104.png') !important;
+}
+
+}
