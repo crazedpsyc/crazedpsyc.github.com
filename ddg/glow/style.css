@@ -6,12 +6,26 @@ html {
 }
 #dd {
   display:inline;
-  text-shadow: 0px 0px 10px rgb(254, 243, 186);
+  text-shadow: 0px 0px 6px #fff;
   font-weight: normal!important;
+  transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
 }
 #go {
   display:inline;
-  color: rgb(13, 177, 75);
-  text-shadow: 0px 0px 10px rgb(120, 220, 117);
+  color: rgb(95, 195, 92);
+  text-shadow: 0px 0px 6px #0f0;
   font-weight: normal!important;
+  transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
+div:hover #dd {
+  text-shadow: 0px 0px 20px #fff;
+}
+div:hover #go {
+  text-shadow: 0px 0px 20px #0f0;
 }
