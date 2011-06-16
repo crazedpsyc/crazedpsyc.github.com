@@ -2,15 +2,16 @@ html {
   background-color: #000;
   color: white;
   font-family: 'Century Gothic';
+  letter-spacing: 2px;
 }
 #dd {
   display:inline;
   text-shadow: 0px 0px 10px rgb(254, 243, 186);
-  letter-spacing: 2px;
+  font-weight: normal!important;
 }
 #go {
   display:inline;
   color: rgb(13, 177, 75);
   text-shadow: 0px 0px 10px rgb(120, 220, 117);
-  letter-spacing: 2px;
+  font-weight: normal!important;
 }
