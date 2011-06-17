@@ -9,20 +9,20 @@ html {
   display:inline;
   text-shadow: 0px 0px 10px #fff;
   font-weight: normal!important;
-  transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  -webkit-transition-duration: 1s;
+  transition-duration: 200ms;
+  -moz-transition-duration: 200ms;
+  -o-transition-duration: 200ms;
+  -webkit-transition-duration: 200ms;
 }
 #go {
   font-size: 150px;
   display:inline;
   text-shadow: 0px 0px 10px #0f0;
   font-weight: normal!important;
-  transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  -webkit-transition-duration: 1s;
+  transition-duration: 200ms;
+  -moz-transition-duration: 200ms;
+  -o-transition-duration: 200ms;
+  -webkit-transition-duration: 200ms;
 }
 div:hover #dd {
   text-shadow: 0px 0px 20px #fff;
