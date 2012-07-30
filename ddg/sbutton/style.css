@@ -1,0 +1,2416 @@
+
+/* line 11 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/index.styl */
+
+/* line 419 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 419 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/config.styl */
+
+/* line 5 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 2 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 2 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 11 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 3 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/reset.styl */
+
+/* line 4 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/positions.styl */
+
+/* line 2 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 24 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 2 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 2 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 149 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 149 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/config.styl */
+
+/* line 2 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/box.styl */
+
+/* line 2 : /usr/local/ddg/www-release/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 4 : /usr/local/ddg/www-release/assets/stylus/_helpers.styl */
+
+/* line 13 : /usr/local/ddg/www-release/assets/stylus/_helpers.styl */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 4 : /usr/local/ddg/www-release/assets/stylus/_kympyle.styl */
+
+/* line 4 : /usr/local/ddg/www-release/assets/stylus/_kympyle.styl */
+.k_float {
+  z-index: 9999999;
+  position: fixed !important;
+  position: absolute;
+}
+
+/* line 9 : /usr/local/ddg/www-release/assets/stylus/_kympyle.styl */
+.k_bottom {
+  bottom: 0px;
+}
+
+/* line 13 : /usr/local/ddg/www-release/assets/stylus/_kympyle.styl */
+.k_right {
+  right: 2px;
+}
+
+/* line 16 : /usr/local/ddg/www-release/assets/stylus/_kympyle.styl */
+.k_left {
+  left: 0px;
+}
+
+/* line 19 : /usr/local/ddg/www-release/assets/stylus/_kympyle.styl */
+.k_top {
+  top: 0px;
+  _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.scrollTop :document.body.scrollTop);
+}
+
+/* line 22 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+
+/* line 7 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+html {
+  color: #000;
+  background: #fff;
+}
+
+/* line 11 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+select,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 19 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+fieldset,
+img {
+  border: 0;
+}
+
+/* line 22 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+address,
+button,
+caption,
+cite,
+code,
+dfn,
+em,
+input,
+optgroup,
+option,
+select,
+strong,
+textarea,
+th,
+var {
+  font: inherit;
+}
+
+/* line 25 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+del,
+ins {
+  text-decoration: none;
+}
+
+/* line 28 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+li {
+  list-style: none;
+}
+
+/* line 31 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+caption,
+th {
+  text-align: left;
+}
+
+/* line 34 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 38 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+q:before,
+q:after {
+  content: '';
+}
+
+/* line 41 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 45 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+sup {
+  vertical-align: baseline;
+}
+
+/* line 48 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+sub {
+  vertical-align: baseline;
+}
+
+/* line 51 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+legend {
+  color: #000;
+}
+
+/* line 54 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+body {
+  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+  *font-size: small;
+  *font: x-small;
+}
+
+/* line 59 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+select,
+input,
+textarea,
+button {
+  font: 99% arial, helvetica, clean, sans-serif;
+}
+
+/* line 62 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/* line 65 : /usr/local/ddg/www-release/assets/stylus/_reset.styl */
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
+
+/* line 16 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/*
+html
+body
+  // http://stackoverflow.com/questions/2977550/iphone-safari-css-rotation-bug
+  // 2012.01.15 causes major issues with chrome people on regular browsers
+  //  not being able to zoom, so ditching.
+  -webkit-text-size-adjust:none
+*/
+
+/* line 25 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+html {
+  height: 101%;
+  background: #fdfdfd;
+  color: #333;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* line 32 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+body {
+  font-size: 105%;
+}
+
+/* line 36 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+input,
+body,
+a,
+select,
+#special_page_header,
+#zero_click_header,
+#did_you_mean,
+#search_form_input,
+#bang {
+  font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+/* line 48 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+a {
+  text-decoration: none;
+  color: #1168cc;
+}
+
+/* line 51 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+a:visited {
+  color: #6830bb;
+}
+
+/* line 54 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* line 59 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+a:focus {
+  outline: none;
+}
+
+/* line 63 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+a.large {
+  font-size: 128.6%;
+}
+
+/* line 66 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: inline;
+}
+
+/* line 74 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+h1 {
+  font-weight: bold;
+}
+
+/* line 77 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+h2 {
+  font-weight: normal;
+}
+
+/* line 80 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+img {
+  display: block;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 84 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* list elements -- used on bang page */
+
+/* line 85 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+ul {
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
+/* line 89 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+ul li {
+  list-style: disc outside;
+}
+
+/* line 92 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+ol {
+  padding-left: 37px;
+  padding-top: 3px;
+}
+
+/* line 96 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+ol li {
+  list-style: decimal outside;
+}
+
+/* line 99 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+sup,
+sub {
+  height: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  _vertical-align: bottom;
+  position: relative;
+  font-size: 71.4%;
+}
+
+/* line 108 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+sup {
+  bottom: 1ex;
+}
+
+/* line 111 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+sub {
+  top: 0.5ex;
+}
+
+/* line 114 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* IDS */
+
+/* line 116 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* for prettier rounded corners */
+
+/* line 117 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_form_input_homepage,
+#search_form_input,
+#search_wrapper,
+#search_wrapper_homepage {
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  -webkit-background-clip: padding ;
+  -moz-background-clip: padding ;
+  background-clip: padding-box;
+}
+
+/* line 123 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* matches resize function in js */
+
+/* line 124 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#content_wrapper,
+#header_content_wrapper {
+  max-width: 1027px;
+  min-width: 647px;
+}
+
+/* line 129 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* special page means like category page */
+
+/* line 130 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#special_page_header,
+#zero_click_header {
+  *zoom: 1;
+  color: #444;
+  background: #e9e9e9 url("assets/zero_click_header_bg.v101.png") repeat-x;
+  border-top-radius: 6px;
+  font-size: 107.1%;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 5px;
+  padding-left: 15px;
+  -moz-border-radius-topright: 6px;
+  -moz-border-radius-topleft: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -webkit-border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  font-weight: bold;
+}
+
+/* line 5 : /usr/local/ddg/www-release/assets/stylus/_helpers.styl */
+#special_page_header:before,
+#zero_click_header:before,
+#special_page_header:after,
+#zero_click_header:after {
+  content: "";
+  display: table;
+}
+
+/* line 9 : /usr/local/ddg/www-release/assets/stylus/_helpers.styl */
+#special_page_header:after,
+#zero_click_header:after {
+  clear: both;
+}
+
+/* line 148 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#special_page_header,
+#zero_click_header h1 a,
+#special_page_header h1 a {
+  color: #434343;
+  font-weight: bold;
+}
+
+/* line 153 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#did_you_mean {
+  padding-bottom: 15px;
+}
+
+/* line 158 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#bang_wrapper {
+  max-width: 900px;
+  min-width: 520px;
+  margin: 0 auto;
+  padding: 0 0 0 160px;
+}
+
+/* line 165 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#bang {
+  position: fixed;
+  width: 175px;
+  top: 43px;
+  left: 373px;
+  display: none;
+  outline: 0;
+  font-size: 83.3%;
+  z-index: 100;
+}
+
+/* line 176 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#bang option:hover {
+  background: #86cbf4;
+  color: #000;
+}
+
+/* line 181 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* used on category pages so top anchors scroll to right place */
+
+/* line 182 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#bottom_spacing {
+  clear: both;
+  padding-bottom: 775px;
+}
+
+/* line 187 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* spacing at the bottom for other pages */
+
+/* line 188 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#bottom_spacing2 {
+  clear: both;
+  padding-bottom: 225px;
+}
+
+/* line 193 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* padding right matches resize function in js */
+
+/* line 194 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#content_wrapper {
+  position: relative;
+  z-index: 1;
+  padding-top: 15px;
+  padding-right: 50px;
+}
+
+/* line 201 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* min-width matches resize function in js */
+
+/* line 202 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#content {
+  max-width: 900px;
+  min-width: 520px;
+  padding: 50px 0px 0px 62px;
+  padding-top: expression("50px");
+  _width: expression("600px");
+}
+
+/* line 210 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#content_homepage {
+  padding-top: 10px;
+  margin: auto;
+  max-width: 600px;
+}
+
+/* line 216 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* for about and other pages */
+
+/* line 217 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#content_internal {
+  padding-left: 15px;
+  font-size: 95.2%;
+}
+
+/* line 222 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#content_wrapper_homepage {
+  margin: auto;
+  max-width: 600px;
+}
+
+/* line 227 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#did_you_mean {
+  padding-bottom: 5px;
+  padding-left: 33px;
+  border: 1px solid #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+/* line 236 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#error_homepage {
+  clear: both;
+  padding-top: 20px;
+  font-weight: bold;
+  color: #f00;
+  text-align: center;
+  margin: auto;
+  display: none;
+}
+
+/* line 246 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#feedback_wrapper {
+  display: none;
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
+
+/* line 252 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#feedback {
+  background: url("assets/icon_feedback.v101.png") no-repeat;
+  -webkit-background-size: 71px 57px;
+  -moz-background-size: 71px 57px;
+  -o-background-size: 71px 57px;
+  background-size: 71px 57px;
+  cursor: pointer;
+  height: 19px;
+  width: 71px;
+  float: left;
+  margin-right: 5px;
+}
+
+/* line 261 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#feedback:hover {
+  background-position: 0 -19px;
+}
+
+/* line 264 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#feedback:active {
+  background-position: 0 -38px;
+}
+
+/* line 268 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#footer_homepage {
+  vertical-align: middle;
+  background: #fbfbfb;
+  border-top: 1px solid #e5e5e5;
+  bottom: 0px;
+  font-size: 13px;
+  left: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 281 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#footer_homepage_left {
+  float: left;
+  padding-left: 15px;
+}
+
+/* line 287 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#footer_homepage_right {
+  float: right;
+  padding-right: 15px;
+}
+
+/* line 292 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#footer_homepage_right a {
+  color: #747474;
+  border-left: 1px dotted #999;
+  height: 27px;
+  padding-left: 10px;
+}
+
+/* line 299 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+/* line 306 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header {
+  background: url("assets/header_bg.v102.png") repeat-x;
+  height: 57px;
+  min-width: 560px;
+  width: 100%;
+}
+
+/* line 311 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+
+/* line 312 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content {
+  max-width: 900px;
+  min-width: 803px;
+  margin: 0;
+  padding-left: 85px;
+}
+
+/* line 317 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_logo {
+  float: left;
+  width: 40px;
+  height: 57px;
+  margin: 0px 0px -100px -80px;
+  background: url("assets/logo_header.v101.png") no-repeat;
+  -webkit-background-size: 40px 57px;
+  -moz-background-size: 40px 57px;
+  -o-background-size: 40px 57px;
+  background-size: 40px 57px;
+}
+
+/* line 324 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_logo img {
+  width: 98px;
+  height: 141px;
+}
+
+/* line 327 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper {
+  float: left;
+  font-weight: normal;
+  font-size: 83.3%;
+  margin-left: 40px;
+  margin-top: 7px;
+  width: 70px;
+}
+
+/* line 334 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper ul {
+  padding: 0;
+}
+
+/* line 336 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button {
+  background: url("assets/header_button_bg.v101.png") repeat-x;
+  border: 1px solid #b24d26;
+  border-bottom: 1px solid #ca5945;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 37px;
+  list-style: none;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* line 345 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button:active {
+  background-position: 0 -37px;
+}
+
+/* line 347 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button li {
+  display: block;
+  list-style: none;
+  float: left;
+  margin: 0 !important;
+  height: 19px;
+}
+
+/* line 353 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button a {
+  display: block;
+  margin: 0 2px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  padding: 2px 3px 3px;
+  color: #2b68b3;
+}
+
+/* line 360 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper {
+  position: relative;
+}
+
+/* line 362 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+
+/* line 363 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper a.header_button_menu_item {
+  outline: none;
+  background: url("assets/header_button_triangle.v101.png") no-repeat;
+  background-position: right 15px;
+  -webkit-background-size: 8px 7px;
+  -moz-background-size: 8px 7px;
+  -o-background-size: 8px 7px;
+  background-size: 8px 7px;
+  color: #fff;
+  cursor: pointer;
+  height: 18px;
+  margin-top: 0px;
+  margin-right: 7px;
+  padding-left: 7px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  text-align: right;
+  text-align: center;
+  text-shadow: #85361f 0px -1px;
+}
+
+/* line 380 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper a:hover,
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper a:focus {
+  text-decoration: none !important;
+}
+
+/* line 383 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+
+/* line 385 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper:hover #header_button_menu,
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper:focus #header_button_menu {
+  left: auto;
+}
+
+/* line 387 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper:hover a,
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper:focus a {
+  color: #1168cc !important;
+}
+
+/* line 390 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper:hover a.header_button_menu_item,
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper:focus a.header_button_menu_item {
+  color: #fff !important;
+}
+
+/* line 392 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper #header_button_menu {
+  display: none;
+  margin: 0;
+  float: left;
+  position: fixed;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-left: -17px;
+  margin-top: 0px;
+  margin-right: 0px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+
+/* line 403 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper #header_button_menu li {
+  display: block;
+  list-style: none;
+  float: none;
+  height: auto;
+  font-weight: normal;
+}
+
+/* line 409 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper #header_button_menu li.header_button_menu_header {
+  background-color: #f7f7f7;
+  color: #3f4651 !important;
+  letter-spacing: 1px;
+  font-size: 78.6%;
+  border-top: 1px dotted #d1d3d6;
+  border-bottom: 1px dotted #d1d3d6;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 7px;
+  padding-right: 10px;
+  font-weight: bold !important;
+  cursor: default;
+}
+
+/* line 422 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper #header_button_menu a {
+  display: block;
+  padding-bottom: 3px;
+  padding-top: 2px;
+  padding-left: 5px;
+  margin: 1px;
+  background-color: #fff;
+}
+
+/* line 429 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper #header_button_menu a:hover,
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper #header_button_menu a:focus {
+  background-color: #1258ae;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* line 434 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper #header_button_menu:after {
+  content: "-";
+  font-size: 1px;
+  display: block;
+  position: fixed;
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+/* line 441 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* hidden iframe for html posting */
+
+/* line 442 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#iframe_hidden {
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+/* line 448 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#keyboard_shortcuts {
+  clear: both;
+  width: 130px;
+}
+
+/* line 453 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#links_wrapper {
+  max-width: 759px;
+}
+
+/* line 457 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* width matches resize function in js */
+
+/* line 458 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#links {
+  padding-top: 15px;
+  width: 86.5%;
+}
+
+/* line 462 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#ads {
+  width: 86.5%;
+}
+
+/* line 466 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* prevents outlining of keyboard shortcut links. */
+
+/* line 467 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#links a:focus {
+/* 2011.01.11 turning off so you can tab through results */
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 474 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#loading {
+  margin-left: 29px;
+}
+
+/* line 478 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* for about pages */
+
+/* line 479 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#logo_internal {
+  background: url("/assets/logo_words.v101.png") no-repeat left 10px;
+  -webkit-background-size: 300px 45px;
+  -moz-background-size: 300px 45px;
+  -o-background-size: 300px 45px;
+  background-size: 300px 45px;
+  height: 63px;
+}
+
+/* line 485 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#logo_homepage {
+  background: url("/assets/logo_homepage.normal.v102.png") no-repeat center top;
+/*  background:url(/assets/logo_homepage.pink_panther.png) no-repeat center top;  */
+  -webkit-background-size: 202px 160px;
+  -moz-background-size: 202px 160px;
+  -o-background-size: 202px 160px;
+  background-size: 202px 160px;
+  margin: auto;
+  padding-bottom: 1px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  height: 161px;
+  text-align: center;
+  color: transparent;
+  text-indent: -9999px;
+  font-size: 0px;
+  width: 202px;
+}
+
+/* line 500 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#logo_homepage.mobile {
+  background: url("assets/logo_homepage_mobile.normal.png") no-repeat center top;
+/*   background:url('assets/logo_homepage_mobile.pink_panther.png') no-repeat center top;  */
+  -webkit-background-size: 275px 62px;
+  -moz-background-size: 275px 62px;
+  -o-background-size: 275px 62px;
+  background-size: 275px 62px;
+  width: 275px;
+  height: 62px;
+}
+
+/* line 508 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#official_site {
+  padding-top: 3px;
+}
+
+/* line 512 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#powered_by_wrapper {
+  display: none;
+}
+
+/* line 516 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#powered_by {
+  clear: right;
+  font-size: 11px;
+  text-align: right;
+  color: #777;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+/* line 525 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#powered_by a {
+  color: #777;
+}
+
+/* line 529 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* holds hidden params tied to search box */
+
+/* line 530 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_elements_hidden {
+  display: none;
+  height: 0;
+}
+
+/* line 535 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* search_form* widths must match resize function in JS */
+
+/* line 536 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_form {
+  float: left;
+/* matches duckduck.js and one more pixel to not break firefox zoom level */
+  width: 554px;
+  margin-left: -25px;
+  border-bottom: 1px solid #cc6a5f;
+  border-left: 0px solid #e37552;
+  border-top: 0px solid #ec9a77;
+  border-right: 0px solid #e37552;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+/* line 551 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_form_homepage {
+  width: 518px;
+  margin: auto;
+  text-align: left;
+}
+
+/* line 557 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_dropdown {
+  display: block;
+  float: left;
+  width: 24px;
+  height: 37px;
+  background: url("assets/search_dropdown.v102.png");
+  -webkit-background-size: 67px 74px;
+  -moz-background-size: 67px 74px;
+  -o-background-size: 67px 74px;
+  background-size: 67px 74px;
+  background-position: top right;
+  outline: none;
+}
+
+/* line 567 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_dropdown:active {
+  background-position: right bottom;
+}
+
+/* line 570 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* keeping this visible even for non-js so that the page doesn't flicker when we add it back
+   possibly a better way to hide it though.
+*/
+
+/* line 573 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_dropdown_homepage {
+  display: block;
+  float: left;
+  width: 23px;
+  height: 40px;
+  background: url("assets/search_dropdown_homepage.v102.png") no-repeat;
+  -webkit-background-size: 67px 78px;
+  -moz-background-size: 67px 78px;
+  -o-background-size: 67px 78px;
+  background-size: 67px 78px;
+  background-position: top right;
+}
+
+/* line 583 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_dropdown_homepage:active {
+  background-position: right bottom;
+}
+
+/* line 587 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_form_input {
+  float: right;
+  background: #fff;
+  color: #222;
+  width: 446px;
+  height: 27px;
+  padding: 4px 6px 4px 8px;
+  margin: 0;
+  outline: none;
+  border: #835342 solid 1px;
+  border-right: 0;
+  font-size: 95.2%;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+}
+
+/* line 605 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_form_input_homepage {
+  float: right;
+  background: #fff;
+  color: #222;
+  width: 430px;
+  height: 28px;
+  padding: 4px 6px 5px 6px;
+  margin: 0;
+  outline: none;
+  border: #8d8d8d solid 1px;
+  border-right: 0;
+  font-size: 18px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  -webkit-box-shadow: 1px 1px 2px #999;
+  -webkit-box-shadow: inset 1px 1px 2px #999;
+  -moz-box-shadow: inset 1px 1px 2px #999;
+  box-shadow: inset 1px 1px 2px #999;
+}
+
+/* line 629 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_wrapper {
+  float: right;
+  width: 67px;
+  height: 37px;
+hidden
+}
+
+/* line 636 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_wrapper_homepage {
+  float: right;
+  height: 39px;
+  width: 67px;
+  background: #2feb00;
+  overflow: hidden;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+}
+
+/* line 651 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_form_input_clear {
+  float: right;
+  width: 25px;
+  border: 0;
+  background: #fff url("assets/icon_xon.v101.png") no-repeat left center;
+  -webkit-background-size: 18px 18px;
+  -moz-background-size: 18px 18px;
+  -o-background-size: 18px 18px;
+  background-size: 18px 18px;
+  cursor: pointer;
+  height: 37px;
+  margin: 0;
+  outline: none;
+  border: none;
+/* ie7 */
+  *border-left: #fff solid 1px;
+  *border-right: #fff solid 1px;
+  border-bottom: #835342 solid 1px;
+  border-top: #835342 solid 1px;
+}
+
+/* line 669 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_form_input_clear:active {
+  background-image: url("assets/icon_xoff.v101.png");
+  -webkit-background-size: 18px 18px;
+  -moz-background-size: 18px 18px;
+  -o-background-size: 18px 18px;
+  background-size: 18px 18px;
+}
+
+/* line 673 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_form_input_clear.empty {
+  background-position: -100px 0;
+}
+
+/* line 677 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_button {
+  float: left;
+  height: 37px;
+  width: 43px;
+  border: 0;
+  background: url("assets/search_dropdown.v102.png");
+  -webkit-background-size: 67px 74px;
+  -moz-background-size: 67px 74px;
+  -o-background-size: 67px 74px;
+  background-size: 67px 74px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 688 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_button:active {
+  background-position: 0 -37px;
+}
+
+/* line 692 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_button_homepage {
+  float: left;
+  height: 39px;
+  width: 44px;
+  border: 0;
+/*background:url('/sbutton.v101.green.png') no-repeat;*/
+  background: url("assets/search_dropdown_homepage.v102.png") no-repeat;
+  -webkit-background-size: 67px 78px;
+  -moz-background-size: 67px 78px;
+  -o-background-size: 67px 78px;
+  background-size: 67px 78px;
+  cursor: pointer;
+}
+
+/* line 703 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#search_button_homepage:active {
+  background-position: 0 -39px;
+}
+
+/* line 707 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#side_wrapper {
+  max-width: 759px;
+  display: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 715 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* width matches resize function in js */
+
+/* line 716 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#side_wrapper2 {
+  width: 130px;
+  position: absolute;
+  right: -100px;
+  top: 25px;
+  font-size: 71.4%;
+  color: #545454;
+}
+
+/* line 725 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#side {
+  background-color: #fcfcfc;
+  position: fixed;
+  width: 130px;
+  z-index: 1;
+  margin-top: -15px;
+}
+
+/* line 733 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#side_map {
+  padding-bottom: 20px;
+}
+
+/* line 737 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#side_sponsored {
+  text-align: left;
+}
+
+/* line 741 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#side_suggestions {
+  text-align: left;
+}
+
+/* line 745 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* #spacing_hidden_wrapper {} */
+
+/* line 747 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#spacing_hidden {
+  height: 0;
+  display: none;
+  float: left;
+  font-size: 83.3%;
+  padding-bottom: 40px;
+}
+
+/* line 755 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* holds last clicked element to highlight on back */
+
+/* line 756 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#state_hidden {
+  height: 0;
+  border: 0;
+  width: 0;
+  display: none;
+}
+
+/* line 763 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_wrapper2 {
+  overflow-y: auto;
+  min-height: 30px;
+}
+
+/* line 768 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_wrapper {
+  padding-top: 20px;
+  max-width: 759px;
+  display: block;
+}
+
+/* line 774 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* width matches resize function in js */
+
+/* line 775 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click {
+  background: #f9f9f9;
+  border: 1px solid #d2d2d2;
+  width: 86.5%;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+/* line 785 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click blockquote {
+  margin: 8px 0px 12px 15px;
+  padding: 5px 5px 1px;
+  border-left: 2px solid #808080;
+}
+
+/* line 791 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click blockquote,
+q {
+  quotes: none;
+}
+
+/* line 795 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click p {
+  clear: both;
+  margin-bottom: 5px;
+}
+
+/* line 800 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click pre {
+  background-color: #eee;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+/* css-3 */
+  white-space: -moz-pre-wrap;
+/* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+/* Opera 4-6 */
+  white-space: -o-pre-wrap;
+/* Opera 7 */
+}
+
+/* line 813 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_plus_wrapper,
+#zero_click_plus_wrapper a {
+  float: right;
+  width: 16px;
+  top: 0px;
+  margin-left: 7px;
+  margin-right: 5px;
+  text-align: right;
+  text-decoration: none !important;
+  padding-bottom: 2px;
+/* minimize on http://yegg.duckduckgo.com/?q=C3O5 */
+}
+
+/* line 824 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_plus {
+  background: url("assets/icon_minus.v103.png") left top no-repeat;
+  -webkit-background-size: 16px 34px;
+  -moz-background-size: 16px 34px;
+  -o-background-size: 16px 34px;
+  background-size: 16px 34px;
+  height: 15px;
+  margin-top: 8px;
+}
+
+/* line 830 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_plus:active {
+  background-position: left bottom;
+}
+
+/* line 833 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_plus.plus {
+  background: url("assets/icon_plus.v103.png") left top no-repeat;
+  -webkit-background-size: 16px 34px;
+  -moz-background-size: 16px 34px;
+  -o-background-size: 16px 34px;
+  background-size: 16px 34px;
+}
+
+/* line 837 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_plus.plus:active {
+  background-position: left bottom;
+}
+
+/* line 841 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_abstract,
+#zero_click_abstract_stacked {
+  font-size: 83.3%;
+  line-height: 1.4;
+  word-wrap: break-word;
+  border: 1px solid #f9f9f9;
+  padding: 2px;
+  margin: 2px;
+  margin-top: 4px;
+  padding-top: 0px;
+  margin-bottom: 2px;
+}
+
+/* line 853 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_answer {
+  margin-left: 25px;
+}
+
+/* line 857 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_heading {
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 863 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_header_info {
+  padding-top: 10px;
+  padding-left: 65px;
+  font-size: 77.8%;
+}
+
+/* line 869 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_image {
+  float: right;
+  max-width: 100px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  padding-right: 3px;
+  line-height: 1.2;
+  font-size: 83.3%;
+  text-align: center;
+}
+
+/* line 883 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* like safe search filter message */
+
+/* line 884 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_message {
+  padding-left: 33px;
+  font-size: 83.3%;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+/* line 891 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#zero_click_topics {
+  font-size: 83.3%;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+/* line 897 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* CLASSES */
+
+/* line 899 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.add_to_browser {
+  height: 300px;
+  width: 200px;
+  background-color: #ddd;
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  z-index: 1000;
+  font-size: 14px;
+}
+
+/* line 917 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.clear {
+  clear: both;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* line 924 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.hide {
+  display: none;
+}
+
+/* line 928 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.hidden {
+  display: none;
+}
+
+/* line 932 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* comes before so highlight can control it */
+
+/* line 933 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.highlight_sponsored {
+  background: #fff7d0;
+  border: 1px solid #fef9eb !important;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+}
+
+/* line 942 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.highlight_sponsored_hover {
+/*  background: #efe7c0 !important; */
+  background: #eae3ad !important;
+}
+
+/* line 947 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.highlight {
+  background: url("assets/results_highlight_bg.v101.png") repeat-x;
+  background-color: #eaeaea;
+  border: 1px solid #bfbfbf !important;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* line 957 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.highlight_zero_click_wrapper {
+  border: 1px solid #f9f9f9;
+  padding: 2px;
+}
+
+/* line 962 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.horizontal_line {
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #bade89;
+  background-color: #d2d2d2;
+  text-align: left;
+}
+
+/* line 972 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.horizontal_line_truncated {
+  width: 85%;
+}
+
+/* line 976 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_fav,
+.icon_fav2,
+.icon_category,
+.icon_disambig {
+  float: left;
+  display: none;
+}
+
+/* line 981 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_category {
+  width: 58px;
+  text-align: right;
+}
+
+/* line 986 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_zero_click_header {
+  float: right;
+  display: inline;
+  margin-top: 0px;
+  padding-right: 10px;
+}
+
+/* line 993 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_fav3,
+.icon_spice {
+  display: inline;
+  float: left;
+  padding-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+/* line 1001 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_spice {
+  padding-top: 2px;
+}
+
+/* line 1005 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_spice_inline {
+  display: inline;
+  padding-left: 1px;
+  padding-right: 3px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  position: relative;
+  top: 2px;
+}
+
+/* line 1016 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_disambig {
+  width: 38px;
+  text-align: right;
+  padding-top: 5px;
+}
+
+/* line 1022 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_fav img,
+.icon_fav2 img,
+.icon_category img,
+.icon_disambig img {
+  visibility: hidden;
+  padding-right: 8px;
+}
+
+/* line 1027 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_fav img,
+.icon_fav2 img {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 1032 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_fav img,
+.icon_category img {
+  padding-top: 5px;
+}
+
+/* line 1036 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_category img,
+.icon_disambig img {
+  display: inline;
+}
+
+/* line 1040 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_fav2 img {
+  padding-top: 5px;
+}
+
+/* line 1044 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_fav2 a + a img {
+  margin-bottom: -21px;
+}
+
+/* line 1048 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.icon_zero_click_answer {
+  float: left;
+  padding-top: 6px;
+  padding-left: 8px;
+  padding-right: 10px;
+  display: inline;
+}
+
+/* line 1056 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.img_badge {
+  display: inline;
+  position: relative;
+  top: 2px;
+  vertical-align: top;
+}
+
+/* line 1063 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.img_category {
+  max-height: 50px;
+  max-width: 50px;
+  width: expression("50px");
+}
+
+/* line 1069 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.img_disambig {
+  max-height: 30px;
+  max-width: 30px;
+  width: expression("30px");
+  margin-top: 3px;
+}
+
+/* line 1076 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.img_zero_click {
+  max-height: 100px;
+  max-width: 100px;
+  width: expression("100px");
+}
+
+/* line 1082 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* For things like xkcd */
+
+/* line 1083 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.img_zero_click_big {
+  max-width: 85%;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* line 1090 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.inline {
+  display: inline;
+}
+
+/* line 1094 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_deep,
+.links_main,
+.links_more {
+  font-size: 83.3%;
+}
+
+/* line 1098 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_indent {
+  padding-left: 35px;
+}
+
+/* line 1102 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_main {
+  text-align: left;
+  margin-left: 30px;
+  word-wrap: break-word;
+  *zoom: 1;
+}
+
+/* line 5 : /usr/local/ddg/www-release/assets/stylus/_helpers.styl */
+.links_main:before,
+.links_main:after {
+  content: "";
+  display: table;
+}
+
+/* line 9 : /usr/local/ddg/www-release/assets/stylus/_helpers.styl */
+.links_main:after {
+  clear: both;
+}
+
+/* line 1107 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+
+/* line 1108 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_main div a.hidden {
+  display: inline;
+  visibility: hidden !important;
+}
+
+/* line 1112 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_menu,
+.links_menu a {
+  background: url("assets/icon_triangle.v101.png") no-repeat 0px 4px;
+  -webkit-background-size: 6px 7px;
+  -moz-background-size: 6px 7px;
+  -o-background-size: 6px 7px;
+  background-size: 6px 7px;
+  font-size: 85.7%;
+  color: #555 !important;
+  float: right;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+/* line 1122 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_menu_wrapper {
+  width: 200px;
+  display: inline;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 1129 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_menu_wrapper:hover,
+.links_menu_wrapper:focus {
+  overflow: visible;
+}
+
+/* line 1133 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_menu_items {
+  margin: 0;
+  float: left;
+  position: absolute;
+  top: -20px;
+  left: -2000px;
+  display: block;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-left: 2px;
+  margin-top: -1px;
+  margin-right: 0px;
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  width: 150px;
+  text-align: left;
+}
+
+/* line 1152 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_menu_wrapper:hover .links_menu_items,
+.links_menu_wrapper:focus .links_menu_items {
+  left: 20px;
+}
+
+/* line 1156 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_menu_items:after {
+  content: "-";
+  font-size: 1px;
+  display: block;
+  position: fixed;
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+/* line 1164 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_menu_items li {
+  display: block;
+  list-style: none;
+  float: none;
+  height: auto;
+  font-weight: normal;
+}
+
+/* line 1172 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_menu_items a {
+  display: block;
+  padding: 2px 3px;
+  margin: 0;
+  background-color: #fff;
+}
+
+/* line 1179 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_more {
+  text-align: left;
+  margin-left: 58px;
+  word-wrap: break-word;
+}
+
+/* line 1185 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_type {
+  font-size: 65%;
+}
+
+/* line 1189 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_zero_click {
+  text-align: left;
+  padding-left: 5px;
+  margin-right: 5px;
+  word-wrap: break-word;
+}
+
+/* line 1196 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.links_zero_click_disambig {
+  text-align: left;
+  margin-left: 33px;
+  margin-right: 10px;
+  padding: 4px;
+  word-wrap: break-word;
+  border: 1px solid #f9f9f9;
+}
+
+/* line 1205 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.page_count {
+  float: left;
+  color: #555;
+  font-size: 71.4%;
+  text-align: left;
+}
+
+/* line 1212 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.page_count_pre,
+.page_count_post {
+  color: #fff;
+  background-color: #fff;
+  border: 1px dotted #777;
+  border-style: none none dotted;
+  height: 1px;
+  text-align: right;
+  float: left;
+}
+
+/* line 1222 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.page_count_pre {
+  width: 10%;
+}
+
+/* line 1226 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.page_count_post {
+  width: 70%;
+}
+
+/* line 1230 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_links,
+.results_zero_click,
+.results_disambig,
+.results_links_more,
+.results_category_more,
+.results_disambig_more {
+  clear: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #fcfcfc;
+}
+
+/* line 1237 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_links_deep {
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #fcfcfc;
+}
+
+/* line 1244 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_links {
+  padding-left: 5px;
+}
+
+/* line 1248 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_links_more {
+  padding-left: 33px;
+}
+
+/* line 1252 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_category_more {
+  padding-left: 63px;
+}
+
+/* line 1256 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_disambig_more {
+  margin-left: 33px;
+  margin-right: 10px;
+  padding: 5px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+/* line 1264 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_zero_click,
+.results_zero_click_more {
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border: 1px solid #f9f9f9;
+}
+
+/* line 1270 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_disambig_more,
+.results_disambig {
+  border: 1px solid #f9f9f9;
+}
+
+/* line 1274 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_disambig {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+/* line 1279 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_zero_click {
+  clear: none;
+  padding-top: 3px;
+}
+
+/* line 1284 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.results_zero_click_more {
+  padding-top: 3px;
+  padding-left: 5px;
+  font-size: 90%;
+}
+
+/* line 1290 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.search_suggestion {
+  background-color: #666;
+  background: #f5f5f5 url("assets/side_button_off.v101.png") repeat-x;
+  line-height: 1.4;
+  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+  cursor: pointer !important;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: #e4e4e4 solid 1px;
+  border: 1px solid #e4e4e4;
+  width: 130px;
+}
+
+/* line 1305 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.search_suggestion:hover {
+  background-color: #f0f0f0;
+  background: #e2e2e2 url("assets/side_button_on.v101.png") repeat-x;
+  border: 1px solid #adadad;
+}
+
+/* line 1311 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.search_suggestion:active {
+  background-color: #bbb;
+}
+
+/* line 1315 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.search_suggestion a {
+  background: url("assets/icon_plus.v102.png") no-repeat left center;
+  -webkit-background-size: 12px 12px;
+  -moz-background-size: 12px 12px;
+  -o-background-size: 12px 12px;
+  background-size: 12px 12px;
+  padding-left: 14px;
+  color: #333 !important;
+  text-decoration: none !important;
+}
+
+/* line 1323 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.small {
+  font-size: 83.3%;
+}
+
+/* line 1327 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.snippet,
+.snippet a {
+  clear: both;
+  line-height: 1.4;
+  color: #333 !important;
+  text-decoration: none !important;
+}
+
+/* line 1334 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* if move in a you can get a double size reduction */
+
+/* line 1335 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.snippet {
+  font-size: 92.8%;
+}
+
+/* line 1339 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.spacer_bottom_7 {
+  padding-bottom: 7px;
+}
+
+/* line 1343 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.spacer_bottom_10 {
+  padding-bottom: 10px;
+}
+
+/* line 1347 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.spacer_top_3 {
+  padding-top: 3px;
+}
+
+/* line 1351 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.spacer_top_10 {
+  padding-top: 10px;
+}
+
+/* line 1355 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.url,
+.url a {
+  color: #781900 !important;
+  font-size: 92.8%;
+}
+
+/* line 1360 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.zero_click_answer {
+  padding-left: 5px !important;
+  margin-left: 30px !important;
+  margin-right: 50px !important;
+}
+
+/* line 1366 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.zero_click_header_info {
+  font-style: normal;
+}
+
+/* line 1370 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.zero_click_snippet {
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 5px !important;
+  margin-left: 10px !important;
+}
+
+/* line 1378 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.zero_click_snippet_no_image {
+  padding: 0px;
+  padding-bottom: 5px;
+  margin-left: 10px !important;
+  padding-left: 5px !important;
+}
+
+/* line 1385 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+.feedback_form_error {
+  margin-top: 15px;
+  padding: 3px;
+  background: #fef9cd;
+  border: #e1d980 1px solid;
+  display: none;
+}
+
+/* line 1394 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* Small screens */
+
+/* line 1395 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* kindle fire is 600 */
+
+/* line 1396 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+@media only screen and (max-device-width: 599px) {
+
+/* line 1398 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #content,
+  #content_wrapper,
+  #content_homepage,
+  #content_wrapper_homepage,
+  #zero_click_wrapper,
+  #links_wrapper,
+  #zero_click,
+  #links {
+    width: 97%;
+    min-width: 97%;
+    margin: auto;
+    padding-right: 0;
+  }
+
+/* line 1404 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #content {
+    margin: auto;
+    padding-left: 0;
+    padding-top: 50px;
+  }
+
+/* line 1409 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #header_button_wrapper,
+  #search_dropdown,
+  #bang_wrapper,
+  #search_dropdown_homepage {
+    display: none;
+  }
+
+/* line 1412 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #logo_homepage {
+    background-image: url("/assets/logo_homepage_mobile.normal.v101.png");
+/*    background-image:url(/assets/logo_homepage_mobile.pink_panther.png); */
+    -webkit-background-size: 275px 62px;
+    -moz-background-size: 275px 62px;
+    -o-background-size: 275px 62px;
+    background-size: 275px 62px;
+    width: 275px;
+    height: 62px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+  }
+
+/* line 1421 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form {
+    width: 236px;
+  }
+
+/* line 1424 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form_homepage {
+    width: 220px;
+  }
+
+/* line 1427 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_wrapper {
+    width: 42px;
+  }
+
+/* line 1430 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_wrapper_homepage {
+    width: 42px;
+  }
+
+/* line 1433 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form_input {
+    width: 153px;
+  }
+
+/* line 1436 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form_input_homepage {
+    width: 163px;
+  }
+}
+
+/* line 1442 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+@media only screen and (max-device-width: 599px) and (orientation:landscape) {
+
+/* line 1443 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form {
+    width: 336px;
+  }
+
+/* line 1446 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form_input {
+    width: 253px;
+  }
+
+/* line 1449 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form_homepage {
+    width: 313px;
+  }
+
+/* line 1452 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form_input_homepage {
+    width: 253px;
+  }
+}
+
+/* line 1457 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+/* source ids */
+
+/* line 1458 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+#wwo_outer {
+  background: #f9f9f9;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+/* line 1465 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (-moz-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
+
+/* line 1466 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #logo_homepage {
+    background-image: url("/assets/logo_homepage.hdpi.v101.png");
+  }
+
+/* line 1469 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #logo_homepage.mobile {
+    background-image: url("/assets/logo_homepage_mobile.hdpi.v101.png");
+  }
+@media screen and (max-device-width: 599px) {
+
+/* line 1473 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+    #logo_homepage {
+      background-image: url("/assets/logo_homepage_mobile.hdpi.v101.png");
+    }
+}
+
+/* line 1477 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #content_homepage {
+    width: 97%;
+    min-width: 97%;
+    margin: auto;
+    padding-right: 0;
+  }
+
+/* line 1483 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_dropdown,
+  .mobile #search_dropdown_homepage {
+    display: none;
+  }
+
+/* line 1486 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_form {
+    width: 236px;
+  }
+
+/* line 1489 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_form_homepage {
+    width: 220px;
+  }
+
+/* line 1492 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_wrapper {
+    width: 42px;
+  }
+
+/* line 1495 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_wrapper_homepage {
+    width: 42px;
+  }
+
+/* line 1498 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_form_input {
+    width: 153px;
+  }
+
+/* line 1501 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile  #search_form_input_homepage {
+    width: 163px;
+  }
+
+/* line 1504 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #header_wrapper #header #header_content_wrapper #header_content #header_logo {
+    background-image: url("assets/logo_header.v101.hdpi.png");
+  }
+
+/* line 1507 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #logo_internal {
+    background-image: url("/assets/logo_words.v101.hdpi.png");
+  }
+
+/* line 1510 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_button,
+  #search_dropdown {
+    background-image: url("assets/search_dropdown.v102.hdpi.png");
+  }
+
+/* line 1513 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_button_homepage,
+  #search_dropdown_homepage {
+    background-image: url("assets/search_dropdown_homepage.v102.hdpi.png");
+  }
+}
+
+/* line 1517 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (orientation:landscape) {
+
+/* line 1518 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_form {
+    width: 312px;
+  }
+
+/* line 1521 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_form_input {
+    width: 253px;
+  }
+
+/* line 1524 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_form_homepage {
+    width: 352px;
+  }
+
+/* line 1527 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #search_form_input_homepage {
+    width: 287px;
+  }
+
+/* line 1530 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #content {
+    padding-right: 0;
+  }
+}
+
+/* line 1532 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (-moz-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (min-device-pixel-ratio: 2) {
+
+/* line 1533 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #logo_homepage {
+    background-image: url("/assets/logo_homepage.retina.v101.png");
+  }
+
+/* line 1536 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .mobile #logo_homepage.mobile {
+    background-image: url("/assets/logo_homepage_mobile.retina.v101.png");
+  }
+@media screen and (max-device-width: 599px) {
+
+/* line 1540 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+    #logo_homepage {
+      background-image: url("/assets/logo_homepage_mobile.retina.v101.png");
+    }
+}
+
+/* line 1544 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #feedback {
+    background-image: url("assets/icon_feedback.v101.retina.png");
+  }
+
+/* line 1547 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .search_suggestion a {
+    background-image: url("assets/icon_plus.v102.retina.png");
+  }
+
+/* line 1550 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .links_menu,
+  .links_menu a {
+    background-image: url("assets/icon_triangle.v101.retina.png");
+  }
+
+/* line 1553 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  .img_badge {
+    display: inline-block;
+    overflow: hidden;
+    height: 0;
+    width: 71px;
+    padding-top: 19px;
+    background: url("/assets/icon_official.v101.retina.png") top left no-repeat;
+    -webkit-background-size: 71px 19px;
+    -moz-background-size: 71px 19px;
+    -o-background-size: 71px 19px;
+    background-size: 71px 19px;
+  }
+
+/* line 1562 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #header_wrapper #header #header_content_wrapper #header_content #header_logo {
+    background-image: url("assets/logo_header.v101.retina.png") no-repeat;
+  }
+
+/* line 1565 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #header_wrapper #header #header_content_wrapper #header_content #header_button_wrapper #header_button #header_button_menu_wrapper a.header_button_menu_item {
+    background-image: url("assets/header_button_triangle.v101.retina.png");
+  }
+
+/* line 1568 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #logo_internal {
+    background-image: url("/assets/logo_words.v101.retina.png");
+  }
+
+/* line 1571 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_button,
+  #search_dropdown {
+    background-image: url("assets/search_dropdown.v102.retina.png");
+  }
+
+/* line 1574 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_button_homepage,
+  #search_dropdown_homepage {
+    background-image: url("assets/search_dropdown_homepage.v102.retina.png");
+  }
+
+/* line 1577 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form_input_clear {
+    background-image: url("assets/icon_xon.v101.retina.png");
+  }
+
+/* line 1580 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #search_form_input_clear:active {
+    background-image: url("assets/icon_xoff.v101.retina.png");
+  }
+
+/* line 1583 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #zero_click_plus {
+    background-image: url("assets/icon_minus.v103.retina.png");
+  }
+
+/* line 1586 : /usr/local/ddg/www-release/assets/stylus/style.styl */
+  #zero_click_plus.plus {
+    background-image: url("assets/icon_plus.v103.retina.png");
+  }
+}

@@ -1,0 +1,621 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<title>DuckDuckGo Settings</title>
+
+<link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch_ssl.xml">
+<link rel="image_src" href="/assets/logo_homepage.normal.v101.png"/>
+
+<link rel="stylesheet" href="s445.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/r/settings268.css" />
+
+
+<style type="text/css"><!--
+  /*
+  media screen and (umin-width:960px) {
+  }
+  */
+@media screen and (max-width:480px) {
+  #cloudset {
+    background-image:none;
+  }
+  #cloud-attribution {
+      display:none;
+  }
+  .catname {
+    display:block !important;
+  }
+  #Color_tab {
+    display:none;
+  }
+  #Color_content {
+    display:none;
+  }
+  .yui-nav {
+    display:none;
+  }
+  .yui-hidden {
+    position:relative !important;
+    visibility:visible !important;
+    height: auto !important;
+    width: auto !important;
+    left:0 !important;
+  }
+
+  #yui-picker-panel {
+     display:none !important;
+  }
+  #saveDialog, #loadDialog {
+    min-width:none;
+  }
+
+  .yui-button button {
+    max-height:1.5em !important;
+  }
+  #x_preview {
+    display:none;
+  }
+}
+
+@media screen and (min-width:481px) {
+    #ddgxtabs {
+        display:block;
+        margin-top:25px;
+    }
+}
+
+@media screen and (max-width:960px) {
+
+    #x_preview {
+      display:none; /* block */
+      position:relative;
+      width:auto;
+      margin:1em;
+      border:1px solid #e0e0e0;
+      border:1px solid rgba(0,0,0,0.05);
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    #x_preview {
+      display:none;
+    }
+
+    #content_wrapper, #links, #content_internal, #links_wrapper, .catopt, .catname, ul.xet {
+      max-width:100% !important;
+      width:100% !important;
+      min-width:100% !important;
+      margin:0 !important;
+      padding:0 !important;
+      text-align:left;
+      display:block !important;
+    }
+/*
+}
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+*/
+
+    #Color_tab {
+      display:none;
+    }
+    #Color_content {
+      display:none;
+    }
+
+
+    #logo_internal {
+      width:100%;
+    }
+
+    body {
+      margin:0;
+      padding:0;
+    }
+
+    ul {
+      list-style:none;
+    }
+    /* #header_wrapper, #header {
+      display:none;
+    } */
+    #header_content, #header, #header_wrapper {
+      max-width:100% !important;
+      min-width:100% !important;
+    }
+    /* supposedly covered by the @media max-width:960 rule
+    #content_wrapper, #links, #content_internal, #links_wrapper, .catopt, .catname, ul.xet {
+      max-width:100% !important;
+      width:100% !important;
+      min-width:100% !important;
+      margin:0 !important;
+      padding:0 !important;
+      text-align:left;
+      display:block !important;
+    }
+    */
+    #content {
+      padding:50px 0 0 0 !important;
+      max-width:100% !important;
+      width:100% !important;
+      min-width:100% !important;
+      margin:0 !important;
+      text-align:left;
+      display:block;
+    }
+
+    /* #ddgxtabs {
+       width:98%;
+       padding:0 1% 0 1%;
+    } */
+
+    .catname {
+      margin:1em 0 1em 0 !important;
+      padding:0.5em 0 0.5em 0.5em !important;
+      background-color:#f5f5f5;
+    }
+
+    .catdesc {
+      text-align:left;
+      width:auto !important;
+    }
+
+    .catdesc {
+      font-weight:bold;
+      display:inline-block;
+    }
+
+    .radgroup {
+      text-align:right;
+      width:auto !important;
+      display:block;
+      float:right;
+      padding:0 0.5em 0 0 !important;
+    }
+    .catfooter, .catsubhead {
+       padding:0 2em 0 0.5em;
+    }
+    .catsubhead {
+      color:#747474;
+      margin-bottom:6px !important;
+    }
+    .yui-skin-sam .yui-button button {
+      line-height:2em !important;
+      min-height:2em !important;
+      /*padding:0.5em 1em 0.5em 1em !important; */
+    }
+    select.xet {
+      float:right;
+      /* text-align:right; */
+      /* width:55%; */
+      display:block !important;
+    }
+    .xstat {
+        display:none;
+    }
+    li.xet {
+      display:block;
+      padding-left:10px;
+      /* border-bottom:1px solid #d0d0d0; */
+      padding-bottom:3px;
+    }
+    /*
+    ul.xet:first-child {
+      border-top:1px solid #d0d0d0;
+    }
+    */
+    .catlong {
+      padding:0;
+    }
+    .yui-content {
+      padding:3px;
+      background:none !important;
+      border-width:0 !important;
+    }
+    #resetall, #reset_inner {
+      background:none;
+      width:100%;
+      padding:3px 0px 3px 0px;
+      margin:0;
+      border:0;
+    }
+    #reset_inner div, .mib {
+      display:block;
+      margin:auto;
+      width:100%;
+      float:none !important;
+      text-align:center !important;
+    }
+    #reset_inner div a {
+       padding-top:4px;
+    }
+    /*
+    #zero_click_header {
+      display:none;
+    }
+    */
+    #pwbox input {
+      width:100%;
+      display:block;
+      margin:auto;
+    }
+    .xhelp {
+      display:none;
+    }
+
+    .yui-nav {
+      display:none;
+    }
+
+    .yui-hidden {
+      position:relative !important;
+      visibility:visible !important;
+      height: auto !important;
+      width: auto !important;
+      left:0 !important;
+    }
+
+    #yui-picker-panel {
+       display:none !important;
+    }
+    p, a, div, .catlong, .catsubhead, .radgroup, .catfooter, select, .xet {
+        font-size:12px !important;
+    }
+    .catdesc {
+       font-size:14px !important;
+    }
+    #expfooter {
+      padding:0 1em 0 1em;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    #saveDialog, #loadDialog {
+        min-width: 647px;
+    }
+}
+
+#header_button {
+    background-size:contain;
+}
+  -->
+ </style>
+</head>
+
+
+<body class="yui-skin-sam">
+<div id="yui-picker-panel" class="yui-picker-panel" style="display:none">
+  <div class="hd" id="yui-picker-msg">Please choose a color:</div>
+  <div class="bd">
+      <div class="yui-picker" id="yui-picker"></div>
+    </div>
+  <div class="ft"></div>
+</div>
+<div id="color" class="cn"></div>
+
+
+<div id="saveDialog" style="display:none">
+    <div class="hd">Cloud Save</div>
+    <div class="bd">
+        <p>
+        Save your settings anonymously in the cloud!
+        </p>
+            <!-- since we're encouraging people to use a pass phrase of actual words, we won't turn off autocorrect. -->
+            <p id="pwbox"><input type="text" name="pw" class="userinfo" id="cloud_pw" size="50" autocapitalize="off" onfocus="YD.setStyle('pwstrengthbox', 'display', 'block')" onchange="S.pwstr();" onkeyup="S.pwstr();" onkeydown="S.pwstr();" placeholder="pass phrase"/> <!-- onkeypress="phrasing();" -->
+            <br><a class="xb" onclick="S.passphrase();">suggest</a>
+            </p>
+
+            <div id="pwstrengthbox">
+                Pass phrase strength
+                <div id="pwstrength">
+                    <div id="pwmeter"></div>
+                </div>
+                <div id="pwmsg"></div>
+            </div>
+    </div>
+</div>
+
+<div id="loadDialog" style="display:none">
+    <div class="hd">Load Cloud Settings</div>
+    <div class="bd">
+          <p>Enter your pass phrase to load your settings from the cloud.</p>
+        <p id="pwbox"><input type="password" name="pw" class="userinfo" id="cloud_load_pw" size="50" autocapitalize="off" placeholder="pass phrase"/></p>
+        <!-- <a class="xb" onclick="toggleLoadPW(this);">Show pass phrase</a> -->
+        <input type="checkbox" id="togpw" onclick="S.toggleLoadPW(this);" /> <label for="togpw">Show pass phrase</label>
+    </div>
+</div>
+
+
+<div id="add_to_browser" class="add_to_browser"></div><div id="add_to_browser_homepage" class="add_to_browser"></div><script type="text/javascript" src="/d844.js"></script><div id="header_wrapper" style="display:block;"><div id="header"><div id="header_content_wrapper"><div id="header_content"><div class="cl"></div><a href="/"><div id="header_logo"></div></a><form id="search_form" name="x" action="/" onSubmit="return nbr()"><div id="search_elements_hidden"></div><div id="search_wrapper"><input id="search_button" type="submit" tabindex="2" value=""/><a id="search_dropdown" class="btn" href="javascript:;" onClick="nbc(1);"></a></div><input id="search_form_input_clear" type="button" tabindex="3" value="" onClick="d.x.q.value='';d.x.q.focus();return false;"/><input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" onFocus="if ('rc' in window) {nua('nro',rc)};fq=1;" onBlur="fq=0" onclick="if (this.value=='put search terms here') {this.value='';this.style.color='#000000';}" value=""></form><div id="header_button_wrapper" onclick="DDG.toggle('header_button_menu')"><ul id="header_button"><li><div id="header_button_menu_wrapper"><a class="header_button_menu_item" id="header_button_menu_title" href="javascript:;">More</a> <ul id="header_button_menu"><li><a href="/settings.html" tabindex="-1">Settings</a></li><li><a href="/goodies.html" tabindex="-1">Goodies</a></li><li><a href="/about.html" tabindex="-1">About</a></li><li><a href="http://help.duckduckgo.com/" tabindex="-1">Help</a></li><li><a href="/feedback.html" tabindex="-1">Feedback</a></li><li class="header_button_menu_header">PRIVACY</li><li><a href="http://donttrack.us/" tabindex="-1">DontTrack</a></li><li><a href="http://dontbubble.us/" tabindex="-1">DontBubble</a></li><li><a href="/privacy.html" tabindex="-1">Policy</a></li><li class="header_button_menu_header">COMMUNITY</li><li><a href="https://dukgo.com/" tabindex="-1">Platform</a></li><li><a href="http://duck.co/" tabindex="-1">Forum</a></li><li><a href="http://webchat.freenode.net/?channels=duckduckgo" tabindex="-1">Chat</a></li><li><a href="/spread.html" tabindex="-1">Spread</a></li></ul> </div></li></ul></div><div class="cl"></div></div></div></div></div><div id="bang_wrapper"><select id="bang" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="nbc(1);"></select></div><div id="content_wrapper"><div id="content"><a href="/" title="DuckDuckGo"><div id="logo_internal"></div></a>
+
+    <script type="text/javascript">
+      <!--
+      var JSON;
+      if (!JSON) {
+        document.write('<script src="json2.js" type="text/javascript"></script' + '>');
+      }
+      // -->
+    </script>
+
+    <script src="js/r/settings268.js" type="text/javascript"></script>
+
+<div id="links_wrapper">
+<div id="links">
+<div id="zero_click_header">Settings</div>
+<div id="content_internal">
+
+    <div id="x_preview">
+      <p>Preview</p>
+      <div id="x_preview_content">
+        <div id="r1-1" class="results_links_deep highlight_d2" onmouseover="YD.addClass(this,'highlight')" onmouseout="YD.removeClass(this,'highlight')">
+          <div id="xp_icon" class="icon_fav2">
+            <a title="search domain">
+                <img id="i16" width="16" height="16" title="Search domain en.wikipedia.org" style="visibility: visible">
+            </a>
+          </div>
+          <div id="xp_links" class="links_main links_deep">
+            <h2 id="xp_title"><a class="large">Search result title</a></h2>
+            <div id="xp_snippet" class="snippet">
+              snippet text
+            </div>
+            <div id="xp_ka"><a class="url">link to the site</a></div>
+          </div>
+        </div>
+      </div><!-- x_preview_content -->
+    </div>
+
+    <script type="text/javascript"><!--
+        S.printCategories();
+    --></script>
+
+<div id="resetall">
+    <div id="reset_inner">
+        <div style="display:block; float:right"><a class="xb" href="javascript:;" onclick="S.resetToDefaults(true)">Reset all settings to defaults</a></div>
+        <div id="mib" style="display:inline-block">
+            <a class="xb" onclick="DDG.toggle('more_data');" title="Show details of your settings including bookmarklet">Bookmarklet and settings data</a>
+        </div>
+    </div>
+</div>
+
+
+    <div id="more_data" style="display:none">
+
+
+    <div id="otherways">
+
+    <p>
+    By default, your settings are stored in non-personal browser cookies (in your
+    browser). You can use Anonymous Cloud Save to store your settings in a more
+    permanent way (on a remote server in the cloud). No personally identifiable
+    information will be stored in the cloud, and your pass phrase will never leave
+    your browser.
+    </p>
+
+        <ul>
+          <li class="wides">
+                <p>
+                  <em>Your settings as a URL parameter bookmarklet:</em>
+                </p>
+                <div id="params"></div>
+                  <p style="padding-left:18px;">(see the <a href="http://duckduckgo.com/params.html">URL Parameters</a> page for detailed descriptions)</p>
+            </li>
+
+            <li id="cloudkeynotice" class="wides">
+                <p>
+                <em>Your settings as a cloud save bookmarklet:</em>
+                </p>
+                <p><a target="_new" id="cloudbookmarklet"></a></p>
+            </li>
+            
+            <li id="objectkeynotice" class="wides">
+                <p>
+                <em>Direct link to your settings in the cloud</em>
+                </p>
+                <p><a target="_new" id="objectlink"></a></p>
+            </li>
+
+            <li class="mids midsl">
+                <p>
+                <em>Your settings in JSON format:</em>
+                </p>
+                <div id="jso"></div>
+            </li>
+
+
+            <li class="mids"><em>Your browser cookies:</em>
+                <div id="cook"></div>
+            </li>
+        </ul>
+
+    </div><!-- otherways -->
+
+    </div> <!-- more_data -->
+
+
+<!-- <div id="cloudish"></div> -->
+<div id="xcl">
+
+    <div id="cloudset">
+
+
+
+        <div id="aabox">
+            <div id="status_text"></div>
+            <div>
+                <!-- <input id="stopCloudButton" type="button" value="Disable" display="none" onclick="S.disableCloud();"> -->
+                <!-- <input id="deleteButton" type="button" value="Delete my data" display="none" onclick="S.deleteUserData();"> -->
+                <input id="stopCloudButton" type="button" value="Disable" display="none" \>
+                <input id="deleteButton" type="button" value="Delete my data" display="none" \>
+            </div>
+
+
+        </div>
+
+
+
+        <div id="loadForm">
+
+            <h4>Cloud Save</h4>
+
+            <p>
+            Save your settings anonymously in the cloud!
+            </p>
+
+            <p>
+            <!-- <input id="saveButton" type="button" value="Save Settings" onclick="S.showSaveDialog();"/> -->
+            <!-- <input id="loadButton" type="button" value="Load Settings" onclick="S.showLoadDialog();"/> -->
+            <input id="saveButton" type="button" value="Save Settings" />
+            <input id="loadButton" type="button" value="Load Settings" />
+            </p>
+
+            <p>
+            <a class="xb" onclick="DDG.toggle('whatisthis');">What is this?</a>
+            </p>
+            <div id="whatisthis" style="display:none">
+
+              <h5>Cloud Save FAQ</h5>
+
+              <p>
+              Cloud Save lets you save your settings more permanently by entering a passphrase. It is entirely optional.
+              </p>
+
+              <p>
+              This has a few benefits:
+              </p>
+
+              <ul>
+                <li>You can share your settings among computers and browsers.</li>
+                <li>You can restore your settings after deleting cookies</li>
+                <li>You can store several sets of settings for different purposes.</li>
+              </ul>
+
+
+              <h5>What information gets saved?</h5>
+
+              <p>Only the settings that you have changed. They are detailed on the <a href="https://duckduckgo.com/params.html">URL Parameters</a> page.</p>
+              
+
+              <h5>How does it work?</h5>
+
+              <p>Your passphrase is used to generate a key using the Secure Hash Algorithm known
+              as <a href="http://en.wikipedia.org/wiki/SHA-2">SHA-2</a>, using a 512 bit key. Your passphrase never leaves the browser,
+              only the key and the settings file associated with it.  We save the settings
+              file on Amazon S3 using the generated key as the name. In the interest of
+              transparency, this data is not encrypted: you can see exactly what information we store.</p>
+
+              <ul>
+              <li>Passphrases cannot feasibly be reverse engineered from a key</li>
+              <li>Even if you could do that, there is no point since all the information is there in the open, unencrypted,
+              provided you know the key.</li>
+              <li>DuckDuckGo does not ever know your passphrase.</li>
+              </ul>
+
+              <h5>What is the cloud save bookmarklet and how does it differ from the URL parameter bookmarklet?</h5>
+
+              <p>
+              The cloud save bookmarklet is a URL that automatically enables cloud save.The benefit of this over using the URL parameters
+              bookmarklet is that when you change settings, they will automatically be saved in the cloud.
+              </p>
+
+              <h5>How is it anonymous?</h5>
+
+              <p>We do not have usernames and we don't store any personally identifiable information.</p>
+
+              <h5>How does passphrase generation work?</h5>
+
+              <p>Each time you ask for a passphrase suggestion, we get a reasonably large list of random words
+              from the DuckDuckGo servers.  In the browser, we then select four or five random words from that list,
+              ensuring that it is at least 18-20 characters long. It is easier to remember four or five words
+              than 10 random letters and numbers, and far more secure.</p>
+
+              <h5>How do I change my passphrase?</h5>
+
+              <p>You can do this by saving your settings under a different passphrase, optionally deleting the first set.</p>
+
+              <ol>
+              <li>Enable cloud save by enter your existing passphrase.</li>
+              <li>Push "Delete my data". This removes the data from the cloud, but it remains in your browser until
+              you click on "reset all settings to defaults".</li>
+              <li>Enter a new passphrase and click Save Settings. This will save your data under your new passphrase.</li>
+              </ol>
+
+              <h5>I forgot my passphrase. Can you recover it?</h5>
+
+              <p>No. Unless you deleted your settings, the settings file will still be there but we have no
+              way of associating it with you. We cannot reverse the passphrase key generation. We don't associate
+              your IP address or browser fingerprint or any other information with the file.</p>
+
+              <h5>Is deleted data really deleted?</h5>
+
+              <p>Yes</p> 
+
+
+              <h6>See Also</h6>
+
+              <ul>
+                <li><a href="https://duck.co/topic/a-preview-of-the-new-settings-system">Cloud Save discussion on duck.co</a></li>
+                <li><a href="http://help.duckduckgo.com/customer/portal/topics/97187-settings/articles">DuckDuckGo Support Center</a></li>
+              </ul>
+              
+
+              <p style="line-height:3;vertical-align:bottom">
+              <a class="xb" onclick="DDG.toggle('whatisthis')">hide this FAQ</a>
+              </p>
+
+              <p style="line-height:2;vertical-align:bottom;font-size:smaller">
+              cloud image by <a href="http://www.vecteezy.com/members/boldodonahue">BoldODonahue</a> 
+              </p>
+
+            </div>
+
+        </div><!-- loadForm -->
+
+
+
+    </div><!-- cloudset -->
+</div> <!-- xcl -->
+
+    <div id="expfooter">
+    <!-- You can also <a href="javascript:;" onclick="load()">load settings</a> from a URL parameter string. -->
+    <!-- Or <a href="javascript:;" onclick="resetToDefaults()">reset all settings</a>. -->
+        <p>
+        This page requires Javascript to function.
+        If you want to use DuckDuckGo without JavaScript, please use our <a href="/html">HTML</a> or <a href="/lite">lite</a> versions.
+        </p>
+
+    </div>
+
+
+    <div id="bottom_spacing2"></div>
+
+
+
+</div> <!-- content_internal //-->
+
+</div>
+<!-- links //-->
+
+</div>
+<!-- links_wrapper //-->
+
+</div> <!-- content //-->
+</div> <!-- content_wrapper //-->
+
+<!-- footer //-->
+<script type="text/javascript">nip(3)</script>
+
+
+
+</body></html>
+
